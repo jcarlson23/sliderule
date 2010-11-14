@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
+									<integer>21</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -298,7 +298,7 @@
 							<real>210</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>74 141 1281 605 0 0 1366 746 </string>
+						<string>351 135 1281 605 0 0 1366 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GradientCoverView.m</string>
+								<string>IndicatorCoverView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GradientCoverView.m</string>
+										<string>IndicatorCoverView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE60582C12901CB5008922A8</string>
+										<string>BE60586B129023B8008922A8</string>
 										<key>history</key>
 										<array>
 											<string>BE64391D128906B5003412F6</string>
@@ -346,8 +346,10 @@
 											<string>BE6057A712901082008922A8</string>
 											<string>BE6057A912901082008922A8</string>
 											<string>BE6057E512901AA5008922A8</string>
-											<string>BE6057F612901B05008922A8</string>
-											<string>BE6057FE12901B36008922A8</string>
+											<string>BE605834129020D6008922A8</string>
+											<string>BE605835129020D6008922A8</string>
+											<string>BE60583D129020E8008922A8</string>
+											<string>BE60583E129020E8008922A8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -361,7 +363,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1049, 375}}</string>
 								<key>RubberWindowFrame</key>
-								<string>74 141 1281 605 0 0 1366 746 </string>
+								<string>351 135 1281 605 0 0 1366 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,7 +383,7 @@
 								<key>Frame</key>
 								<string>{{0, 380}, {1049, 184}}</string>
 								<key>RubberWindowFrame</key>
-								<string>74 141 1281 605 0 0 1366 746 </string>
+								<string>351 135 1281 605 0 0 1366 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -545,6 +547,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>BE60586C129023B8008922A8</string>
 		<string>BE60579B12900F9B008922A8</string>
 		<string>BE60579C12900F9B008922A8</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -553,7 +556,7 @@
 		<string>/Users/jcarlson/Software/iPhone/uiwork/UIWork.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>74 141 1281 605 0 0 1366 746 </string>
+	<string>351 135 1281 605 0 0 1366 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

@@ -20,6 +20,7 @@
 		BE3CE066128AD6F4004D3B01 /* CustomSliderTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CE065128AD6F4004D3B01 /* CustomSliderTheme.m */; };
 		BE60577E12900D77008922A8 /* GradientCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE60577D12900D77008922A8 /* GradientCoverView.m */; };
 		BE60578112900E0C008922A8 /* SlideRuleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE60578012900E0C008922A8 /* SlideRuleControlView.m */; };
+		BE60582F12901D31008922A8 /* IndicatorCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE60582E12901D31008922A8 /* IndicatorCoverView.m */; };
 		BE6438C81288FF4F003412F6 /* CustomSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438C71288FF4F003412F6 /* CustomSliderView.m */; };
 		BE6438D71288FFA0003412F6 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438D61288FFA0003412F6 /* GradientView.m */; };
 		BE6439141289056F003412F6 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6439131289056F003412F6 /* LineView.m */; };
@@ -48,6 +49,8 @@
 		BE60577D12900D77008922A8 /* GradientCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientCoverView.m; sourceTree = "<group>"; };
 		BE60577F12900E0C008922A8 /* SlideRuleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideRuleControlView.h; sourceTree = "<group>"; };
 		BE60578012900E0C008922A8 /* SlideRuleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideRuleControlView.m; sourceTree = "<group>"; };
+		BE60582D12901D31008922A8 /* IndicatorCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorCoverView.h; sourceTree = "<group>"; };
+		BE60582E12901D31008922A8 /* IndicatorCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorCoverView.m; sourceTree = "<group>"; };
 		BE6438C61288FF4F003412F6 /* CustomSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSliderView.h; sourceTree = "<group>"; };
 		BE6438C71288FF4F003412F6 /* CustomSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSliderView.m; sourceTree = "<group>"; };
 		BE6438D51288FFA0003412F6 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				BE60577D12900D77008922A8 /* GradientCoverView.m */,
 				BE60577F12900E0C008922A8 /* SlideRuleControlView.h */,
 				BE60578012900E0C008922A8 /* SlideRuleControlView.m */,
+				BE60582D12901D31008922A8 /* IndicatorCoverView.h */,
+				BE60582E12901D31008922A8 /* IndicatorCoverView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 				BE3CE066128AD6F4004D3B01 /* CustomSliderTheme.m in Sources */,
 				BE60577E12900D77008922A8 /* GradientCoverView.m in Sources */,
 				BE60578112900E0C008922A8 /* SlideRuleControlView.m in Sources */,
+				BE60582F12901D31008922A8 /* IndicatorCoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 #import "SlideRuleControlView.h"
 #import "GradientCoverView.h"
 #import "CustomSliderView.h"
-
+#import "IndicatorCoverView.h"
 
 @implementation SlideRuleControlView
 
@@ -25,6 +25,12 @@
 		[self addSubview:cover];
 		[cover setUserInteractionEnabled:NO];
 		[cover release];
+		
+		IndicatorCoverView * indicator = [[IndicatorCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		[self addSubview:indicator];
+		[indicator setUserInteractionEnabled:NO];
+		[indicator release];
+		
     }
     return self;
 }
