@@ -1,493 +1,0 @@
-TUIWork
-v7
-r0
-t310967178.420798
-cCheck dependencies
-cCpResource build/Debug-iphoneos/UIWork.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/Info.plist UIWork-Info.plist
-cCompileXIB /Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-cCompileXIB /Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-cProcessPCH /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch.gch UIWork_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch.gch UIWork_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/main.o /Users/jcarlson/Software/iPhone/UIWork/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkAppDelegate.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkViewController.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIHorizontalControl.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/main.o /Users/jcarlson/Software/iPhone/UIWork/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork normal armv6
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkAppDelegate.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkViewController.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIHorizontalControl.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork normal armv7
-cCreateUniversalBinary /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork normal "armv6 armv7"
-cGenerateDSYMFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app.dSYM /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork
-cProcessProductPackaging "/Users/jcarlson/Library/MobileDevice/Provisioning Profiles/C08713E1-5B11-4554-A679-9ECD35450DF7.mobileprovision" /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/embedded.mobileprovision
-cTouch /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent
-cCodeSign /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C87A2590000000000000154
-t1283957337
-s340
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004BF4B7F900000000000001A7
-t1274329081
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004BF4B7F900000000000001E5
-t1274329081
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C0458CC00000000000000C4
-t1275353292
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C045AEF0000000000253180
-t1275353839
-s2437504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C04711400000000000009CD
-t1275359508
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471FC0000000002D563E0
-t1275359740
-s47539168
-
-N/Users/jcarlson/Library/MobileDevice/Provisioning Profiles/C08713E1-5B11-4554-A679-9ECD35450DF7.mobileprovision
-c000000004C7BBA6E000000000000299E
-t1283177070
-s10654
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.h
-c000000004CD8C2E700000000000003C0
-t1289274087
-s960
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m
-c000000004CD8C3340000000000000B15
-t1289274164
-s2837
-i"UIHorizontalControl.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.h
-c000000004CD5FD5F00000000000001D5
-t1289092447
-s469
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m
-c000000004CD5FD5F0000000000000A82
-t1289092447
-s2690
-i"UIWorkAppDelegate.h"
-i"UIWorkViewController.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.h
-c000000004CD5FD5F00000000000000E7
-t1289092447
-s231
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m
-c000000004CD8C4050000000000000758
-t1289274373
-s1880
-i"UIWorkViewController.h"
-i"UIHorizontalControl.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-c000000004CD5FD5F0000000000004E1D
-t1289092447
-s19997
-
-N/Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-c000000004CD5FD5F0000000000001A41
-t1289092447
-s6721
-
-N/Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch
-c000000004CD5FD5F00000000000000B5
-t1289092447
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-t1289274378
-s374
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app.dSYM
-t1289274377
-s102
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/Info.plist
-t1289274373
-s722
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/MainWindow.nib
-t1289274374
-s1121
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/PkgInfo
-t1289274373
-s8
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/ResourceRules.plist
-t1289274373
-s485
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork
-t1289274377
-s59548
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWorkViewController.nib
-t1289274374
-s795
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/embedded.mobileprovision
-t1289274377
-s10654
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIHorizontalControl.o
-t1289274377
-s49672
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork
-t1289274377
-s27108
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork.LinkFileList
-c000000004CD8C40500000000000001F4
-t1289274373
-s500
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkAppDelegate.o
-t1289274377
-s47084
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkViewController.o
-t1289274377
-s38304
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/main.o
-t1289274377
-s6440
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIHorizontalControl.o
-t1289274377
-s48780
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork
-t1289274377
-s26780
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork.LinkFileList
-c000000004CD8C40500000000000001F4
-t1289274373
-s500
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkAppDelegate.o
-t1289274377
-s47000
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkViewController.o
-t1289274377
-s38180
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/main.o
-t1289274377
-s6424
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent
-t1289274378
-s418
-
-N/Users/jcarlson/Software/iPhone/UIWork/main.m
-c000000004CD5FD5F0000000000000164
-t1289092447
-s356
-i<UIKit/UIKit.h>
-
-N/var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch.gch
-t1289274376
-s10290736
-
-N/var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch.gch
-t1289274376
-s9831984
-
-NUIWork-Info.plist
-c000000004CD5FD5F000000000000038D
-t1289092447
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies310967173#310967173#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCodeSign /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-s310967178.025332
-e310967178.420674
-r1
-xCodeSign
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-lSLF07#2@40"CodeSign build/Debug-iphoneos/UIWork.app310967178#310967178#0(0"0(0#0#70"/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app8615655712#644"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jared Carlson (5MZ2F237S9)" --resource-rules=/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/ResourceRules.plist --entitlements /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIHorizontalControl.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310967177.038715
-e310967177.166703
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIHorizontalControl.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m: In function '-[UIHorizontalControl(Hidden) createScrollingImage]':
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m:91: warning: unused variable 'context'
-lSLF07#2@76"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m310967177#310967177#0(245"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m: In function '-[UIHorizontalControl(Hidden) createScrollingImage]':/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m:91: warning: unused variable 'context'1(22@25"Unused variable 'context'310967177#137#108#0(6@68"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m310966964#91#0#91#0#19"unused variable '*'0(0#0#68"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m8615772928#1742"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv6 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIHorizontalControl.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkAppDelegate.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310967176.852338
-e310967177.038622
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkAppDelegate.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m310967176#310967177#0(0"0(0#0#66"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m8616822624#1738"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv6 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkAppDelegate.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkViewController.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310967177.029695
-e310967177.116674
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkViewController.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m310967177#310967177#0(0"0(0#0#69"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m8616226464#1744"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv6 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWorkViewController.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/main.o /Users/jcarlson/Software/iPhone/UIWork/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310967176.851062
-e310967177.029601
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/main.o
-x/Users/jcarlson/Software/iPhone/UIWork/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/jcarlson/Software/iPhone/UIWork/main.m310967176#310967177#0(0"0(0#0#45"/Users/jcarlson/Software/iPhone/UIWork/main.m8616908512#1704"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv6 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/main.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIHorizontalControl.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310967177.371151
-e310967177.462414
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIHorizontalControl.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m: In function '-[UIHorizontalControl(Hidden) createScrollingImage]':
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m:91: warning: unused variable 'context'
-lSLF07#2@76"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m310967177#310967177#0(245"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m: In function '-[UIHorizontalControl(Hidden) createScrollingImage]':/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m:91: warning: unused variable 'context'1(22@25"Unused variable 'context'310967177#137#108#0(6@68"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m310966964#91#0#91#0#19"unused variable '*'0(0#0#68"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m8616193984#1742"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv7 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIHorizontalControl.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkAppDelegate.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310967177.190721
-e310967177.270673
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkAppDelegate.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m310967177#310967177#0(0"0(0#0#66"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m8616922624#1738"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv7 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkAppDelegate.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkViewController.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310967177.270766
-e310967177.371016
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkViewController.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m310967177#310967177#0(0"0(0#0#69"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m8618229248#1744"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv7 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWorkViewController.o0#
-
-CCompileC build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/main.o /Users/jcarlson/Software/iPhone/UIWork/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310967177.116782
-e310967177.190512
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/main.o
-x/Users/jcarlson/Software/iPhone/UIWork/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/jcarlson/Software/iPhone/UIWork/main.m310967177#310967177#0(0"0(0#0#45"/Users/jcarlson/Software/iPhone/UIWork/main.m3417213339966598656#1704"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv7 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/main.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-s310967173.937671
-e310967174.553583
-r1
-xCompileXIB
-x/Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib310967173#310967174#0(0"0(0#0#53"/Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib8617110720#541"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/MainWindow.nib /Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-s310967173.938312
-e310967174.369357
-r1
-xCompileXIB
-x/Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-lSLF07#2@35"CompileXIB UIWorkViewController.xib310967173#310967174#0(0"0(0#0#63"/Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib8615178592#561"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWorkViewController.nib /Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCpResource build/Debug-iphoneos/UIWork.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s310967173.899979
-e310967173.937584
-r1
-xCpResource
-xbuild/Debug-iphoneos/UIWork.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist310967173#310967173#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist4913266056747185152#479"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app0#
-
-CCreateUniversalBinary /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork normal "armv6 armv7"
-s310967177.884185
-e310967177.953444
-r1
-xCreateUniversalBinary
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork
-xnormal
-xarmv6 armv7
-lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/UIWork.app/UIWork normal "armv6 armv7"310967177#310967177#0(0"0(0#0#50"/Users/jcarlson/Software/iPhone/UIWork/armv6 armv78616597568#510"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork -output /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork0#
-
-CGenerateDSYMFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app.dSYM /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork
-s310967177.953549
-e310967177.984608
-r1
-xGenerateDSYMFile
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app.dSYM
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork
-lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/UIWork.app.dSYM build/Debug-iphoneos/UIWork.app/UIWork310967177#310967177#0(0"0(0#0#77"/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork8615206368#359"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/UIWork -o /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app.dSYM0#
-
-CLd /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork normal armv6
-s310967177.166787
-e310967177.884096
-r1
-xLd
-x/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork
-xnormal
-xarmv6
-lSLF07#2@118"Link /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork310967177#310967177#0(0"0(0#0#0"8618116736#875"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -filelist /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv6/UIWork0#
-
-CLd /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork normal armv7
-s310967177.462513
-e310967177.881449
-r1
-xLd
-x/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork
-xnormal
-xarmv7
-lSLF07#2@118"Link /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork310967177#310967177#0(0"0(0#0#0"8617896896#875"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -filelist /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/Objects-normal/armv7/UIWork0#
-
-CProcessInfoPlistFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/Info.plist UIWork-Info.plist
-s310967173.903299
-e310967173.925570
-r1
-xProcessInfoPlistFile
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/Info.plist
-xUIWork-Info.plist
-lSLF07#2@25"Process UIWork-Info.plist310967173#310967173#0(0"0(0#0#56"/Users/jcarlson/Software/iPhone/UIWork/UIWork-Info.plist8617273248#558"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UIWork-Info.plist -genpkginfo /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/ResourceRules.plist -o /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/Info.plist0#
-
-CProcessPCH /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch.gch UIWork_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310967174.554731
-e310967176.850928
-r1
-xProcessPCH
-x/var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch.gch
-xUIWork_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile UIWork_Prefix.pch310967174#310967176#0(0"0(0#0#56"/Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch8605917376#1603"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv7 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -c /Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch -o /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbgsqjhpiotdhlcizhcejmdxlygi/UIWork_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch.gch UIWork_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310967174.553755
-e310967176.614992
-r1
-xProcessPCH
-x/var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch.gch
-xUIWork_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile UIWork_Prefix.pch310967174#310967176#0(0"0(0#0#56"/Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch8616428896#1603"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources/armv6 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/DerivedSources -c /Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch -o /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-dbovlsamvtkfuhaoeqpaayluwamo/UIWork_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/jcarlson/Library/MobileDevice/Provisioning Profiles/C08713E1-5B11-4554-A679-9ECD35450DF7.mobileprovision" /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/embedded.mobileprovision
-s310967177.984709
-e310967177.985853
-r1
-xProcessProductPackaging
-x/Users/jcarlson/Library/MobileDevice/Provisioning Profiles/C08713E1-5B11-4554-A679-9ECD35450DF7.mobileprovision
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/jcarlson/Library/MobileDevice/Provisioning Profiles/C08713E1-5B11-4554-A679-9ECD35450DF7.mobileprovision" build/Debug-iphoneos/UIWork.app/embedded.mobileprovision310967177#310967177#0(0"0(0#0#95"/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/embedded.mobileprovision8600234944#425"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jcarlson/Library/MobileDevice/Provisioning Profiles/C08713E1-5B11-4554-A679-9ECD35450DF7.mobileprovision" -o /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent
-s310967177.988627
-e310967178.025264
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent
-lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent310967177#310967178#0(0"0(0#0#98"/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent8614918784#429"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphoneos/UIWork.build/UIWork.xcent0#
-
-CTouch /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-s310967177.985912
-e310967177.988552
-r1
-xTouch
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app
-lSLF07#2@76"Touch /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app310967177#310967177#0(0"0(0#0#0"8615559296#263"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphoneos/UIWork.app0#
-

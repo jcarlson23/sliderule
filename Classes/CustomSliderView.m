@@ -86,22 +86,7 @@
 #pragma mark ScrollView Delegate
 - (void) scrollViewDidScroll:(UIScrollView *) scrollView
 {
-	NSLog(@"The scroll stopped.");
-	[self updatePosition:nil];
-	[_timer invalidate];
-	_timer = nil;
-}
-
-- (void)updatePosition:(NSTimer*)timer
-{
 	NSLog(@"Scrolling position is %f",self.contentOffset.x);
-}
-
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
-{
-	NSLog(@"About to start scrolling..");
-	_timer = [NSTimer scheduledTimerWithTimeInterval:0.01f target:self selector:@selector(updatePosition:)
-											userInfo:nil repeats:YES];
 }
 
 @end

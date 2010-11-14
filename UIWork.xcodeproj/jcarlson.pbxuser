@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BE39A8FE128634E000808115 /* UIWork */;
-		activeSDKPreference = iphonesimulator4.0;
+		activeSDKPreference = iphonesimulator4.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* UIWork */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* UIWork */,
@@ -57,28 +57,50 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311391424;
-			PBXWorkspaceStateSaveDate = 311391424;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					770,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311430155;
+			PBXWorkspaceStateSaveDate = 311430155;
 		};
 		perUserProjectItems = {
-			BE2F9C59128F74C60091F7EA /* PBXTextBookmark */ = BE2F9C59128F74C60091F7EA /* PBXTextBookmark */;
-			BE2F9C83128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C83128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C84128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C84128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C85128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C85128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C86128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C86128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C87128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C87128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C88128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C88128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C89128F7BE70091F7EA /* PBXTextBookmark */ = BE2F9C89128F7BE70091F7EA /* PBXTextBookmark */;
-			BE2F9C9A128F7C470091F7EA /* PBXTextBookmark */ = BE2F9C9A128F7C470091F7EA /* PBXTextBookmark */;
-			BE2F9C9B128F7C470091F7EA /* PBXTextBookmark */ = BE2F9C9B128F7C470091F7EA /* PBXTextBookmark */;
-			BE2F9C9C128F7C470091F7EA /* PBXTextBookmark */ = BE2F9C9C128F7C470091F7EA /* PBXTextBookmark */;
-			BE2F9C9D128F7C470091F7EA /* PBXTextBookmark */ = BE2F9C9D128F7C470091F7EA /* PBXTextBookmark */;
-			BE2F9C9E128F7C470091F7EA /* PBXTextBookmark */ = BE2F9C9E128F7C470091F7EA /* PBXTextBookmark */;
-			BE2F9CA9128F7C810091F7EA /* PBXTextBookmark */ = BE2F9CA9128F7C810091F7EA /* PBXTextBookmark */;
-			BE2F9CAA128F7C810091F7EA /* PBXTextBookmark */ = BE2F9CAA128F7C810091F7EA /* PBXTextBookmark */;
-			BE2F9CAB128F7C810091F7EA /* PBXTextBookmark */ = BE2F9CAB128F7C810091F7EA /* PBXTextBookmark */;
-			BE2F9CAD128F7CA10091F7EA /* PBXTextBookmark */ = BE2F9CAD128F7CA10091F7EA /* PBXTextBookmark */;
-			BE2F9CB0128F7CCB0091F7EA /* PBXTextBookmark */ = BE2F9CB0128F7CCB0091F7EA /* PBXTextBookmark */;
+			BE2F9C59128F74C60091F7EA = BE2F9C59128F74C60091F7EA /* PBXTextBookmark */;
+			BE2F9C83128F7BE70091F7EA = BE2F9C83128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C84128F7BE70091F7EA = BE2F9C84128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C85128F7BE70091F7EA = BE2F9C85128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C86128F7BE70091F7EA = BE2F9C86128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C87128F7BE70091F7EA = BE2F9C87128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C88128F7BE70091F7EA = BE2F9C88128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C89128F7BE70091F7EA = BE2F9C89128F7BE70091F7EA /* PBXTextBookmark */;
+			BE2F9C9A128F7C470091F7EA = BE2F9C9A128F7C470091F7EA /* PBXTextBookmark */;
+			BE2F9C9B128F7C470091F7EA = BE2F9C9B128F7C470091F7EA /* PBXTextBookmark */;
+			BE2F9C9C128F7C470091F7EA = BE2F9C9C128F7C470091F7EA /* PBXTextBookmark */;
+			BE2F9C9D128F7C470091F7EA = BE2F9C9D128F7C470091F7EA /* PBXTextBookmark */;
+			BE2F9C9E128F7C470091F7EA = BE2F9C9E128F7C470091F7EA /* PBXTextBookmark */;
+			BE2F9CA9128F7C810091F7EA = BE2F9CA9128F7C810091F7EA /* PBXTextBookmark */;
+			BE2F9CAA128F7C810091F7EA = BE2F9CAA128F7C810091F7EA /* PBXTextBookmark */;
+			BE2F9CAB128F7C810091F7EA = BE2F9CAB128F7C810091F7EA /* PBXTextBookmark */;
+			BE2F9CAD128F7CA10091F7EA = BE2F9CAD128F7CA10091F7EA /* PBXTextBookmark */;
+			BE2F9CB0128F7CCB0091F7EA = BE2F9CB0128F7CCB0091F7EA /* PBXTextBookmark */;
 			BE3CE069128AD83B004D3B01 = BE3CE069128AD83B004D3B01 /* PBXTextBookmark */;
 			BE3CE06A128AD83B004D3B01 = BE3CE06A128AD83B004D3B01 /* PBXTextBookmark */;
 			BE3CE06B128AD83B004D3B01 = BE3CE06B128AD83B004D3B01 /* PBXTextBookmark */;
@@ -224,7 +246,7 @@
 		fRef = BE6438C61288FF4F003412F6 /* CustomSliderView.h */;
 		name = "CustomSliderView.h: 34";
 		rLen = 0;
-		rLoc = 614;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 297;
@@ -234,7 +256,7 @@
 		fRef = BE6438C61288FF4F003412F6 /* CustomSliderView.h */;
 		name = "CustomSliderView.h: 34";
 		rLen = 0;
-		rLoc = 614;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 297;
@@ -356,9 +378,9 @@
 	};
 	BE3CE064128AD6F4004D3B01 /* CustomSliderTheme.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 429}}";
+			sepNavIntBoundsRect = "{{0, 0}, {988, 429}}";
 			sepNavSelRange = "{630, 69}";
-			sepNavVisRange = "{27, 673}";
+			sepNavVisRange = "{38, 662}";
 		};
 	};
 	BE3CE065128AD6F4004D3B01 /* CustomSliderTheme.m */ = {
@@ -440,16 +462,16 @@
 	};
 	BE6438C61288FF4F003412F6 /* CustomSliderView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 624}}";
-			sepNavSelRange = "{614, 0}";
-			sepNavVisRange = "{297, 782}";
+			sepNavIntBoundsRect = "{{0, 0}, {988, 611}}";
+			sepNavSelRange = "{594, 0}";
+			sepNavVisRange = "{298, 761}";
 		};
 	};
 	BE6438C71288FF4F003412F6 /* CustomSliderView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 1443}}";
+			sepNavIntBoundsRect = "{{0, 0}, {988, 1326}}";
 			sepNavSelRange = "{2820, 0}";
-			sepNavVisRange = "{2611, 600}";
+			sepNavVisRange = "{2629, 588}";
 			sepNavWindowFrame = "{{45, 171}, {956, 707}}";
 		};
 	};

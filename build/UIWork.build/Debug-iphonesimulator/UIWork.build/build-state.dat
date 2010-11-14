@@ -1,465 +1,0 @@
-TUIWork
-v7
-r0
-t311393483.014833
-cCheck dependencies
-cProcessInfoPlistFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/Info.plist UIWork-Info.plist
-cCompileXIB /Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-cCompileXIB /Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-cProcessPCH /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch.gch UIWork_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/main.o /Users/jcarlson/Software/iPhone/UIWork/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkAppDelegate.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkViewController.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIHorizontalControl.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/GradientView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/LineView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/AnnotationView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderTheme.o /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork normal i386
-cGenerateDSYMFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app.dSYM /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork
-cTouch /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C3FB7B70000000000000132
-t1279244215
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C04586B00000000000000C4
-t1275353195
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C0458E90000000000151D30
-t1275353321
-s1383728
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.h
-c000000004CDA150100000000000000D2
-t1289360641
-s210
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m
-c000000004CDA15B000000000000007D2
-t1289360816
-s2002
-i"AnnotationView.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.h
-c000000004CDAA05000000000000002C2
-t1289396304
-s706
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m
-c000000004CDD63C10000000000000282
-t1289577409
-s642
-i"CustomSliderTheme.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.h
-c000000004CDF44C50000000000000437
-t1289700549
-s1079
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m
-c000000004CDF45480000000000000C91
-t1289700680
-s3217
-i"CustomSliderView.h"
-i"GradientView.h"
-i"LineView.h"
-i"AnnotationView.h"
-i"CustomSliderTheme.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.h
-c000000004CD8C82C0000000000000232
-t1289275436
-s562
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m
-c000000004CD8C99B000000000000061E
-t1289275803
-s1566
-i"GradientView.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.h
-c000000004CDA1B0300000000000002AB
-t1289362179
-s683
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m
-c000000004CDA1C0F0000000000000939
-t1289362447
-s2361
-i"LineView.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.h
-c000000004CDF43A800000000000003ED
-t1289700264
-s1005
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m
-c000000004CDF44A00000000000000D70
-t1289700512
-s3440
-i"UIHorizontalControl.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.h
-c000000004CD5FD5F00000000000001D5
-t1289092447
-s469
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m
-c000000004CD5FD5F0000000000000A82
-t1289092447
-s2690
-i"UIWorkAppDelegate.h"
-i"UIWorkViewController.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.h
-c000000004CD5FD5F00000000000000E7
-t1289092447
-s231
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m
-c000000004CDF425F000000000000073D
-t1289699935
-s1853
-i"UIWorkViewController.h"
-i"UIHorizontalControl.h"
-i"CustomSliderView.h"
-
-N/Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-c000000004CD5FD5F0000000000004E1D
-t1289092447
-s19997
-
-N/Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-c000000004CDA1CA30000000000003C61
-t1289362595
-s15457
-
-N/Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch
-c000000004CD5FD5F00000000000000B5
-t1289092447
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app
-t1289700683
-s238
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app.dSYM
-t1289700683
-s102
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/Info.plist
-t1289700453
-s587
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/MainWindow.nib
-t1289700453
-s1121
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/PkgInfo
-t1289700453
-s8
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork
-t1289700682
-s57648
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWorkViewController.nib
-t1289700453
-s795
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/AnnotationView.o
-t1289700454
-s38968
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderTheme.o
-t1289700454
-s11764
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderView.o
-t1289700682
-s57496
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/GradientView.o
-t1289700454
-s43212
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/LineView.o
-t1289700454
-s48100
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIHorizontalControl.o
-t1289700536
-s54844
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWork.LinkFileList
-c000000004CDF44650000000000000493
-t1289700453
-s1171
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkAppDelegate.o
-t1289700454
-s47672
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkViewController.o
-t1289700550
-s38712
-
-N/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/main.o
-t1289700454
-s6304
-
-N/Users/jcarlson/Software/iPhone/UIWork/main.m
-c000000004CD5FD5F0000000000000164
-t1289092447
-s356
-i<UIKit/UIKit.h>
-
-N/var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch.gch
-t1289700454
-s15232016
-
-NUIWork-Info.plist
-c000000004CD5FD5F000000000000038D
-t1289092447
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies311393482#311393482#0(0"0(0#1#0"8636374976#0"0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/AnnotationView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393254.876567
-e311393254.991045
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/AnnotationView.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m: In function '-[AnnotationView drawRect:]':
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m:31: warning: unused variable 'y'
-lSLF07#2@71"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m311393254#311393254#0(205"/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m: In function '-[AnnotationView drawRect:]':/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m:31: warning: unused variable 'y'1(22@19"Unused variable 'y'311393254#108#97#0(6@63"/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m311053616#31#0#31#0#19"unused variable '*'0(0#0#63"/Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m8649155232#1909"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/AnnotationView.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/AnnotationView.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderTheme.o /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393254.921925
-e311393254.984368
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderTheme.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m311393254#311393254#0(0"0(0#0#66"/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m8696429376#1915"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderTheme.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderTheme.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393482.793805
-e311393482.958682
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderView.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m: In function '-[CustomSliderView initWithFrame:]':
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:52: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m: In function '-[CustomSliderView scrollViewDidScroll:]':
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: 'CustomSliderView' may not respond to '-updatePosition:'
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: (Messages without a matching method signature
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: will be assumed to return 'id' and accept
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: '...' as arguments.)
-lSLF07#2@73"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m311393482#311393482#0(874"/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m: In function '-[CustomSliderView initWithFrame:]':/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:52: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m: In function '-[CustomSliderView scrollViewDidScroll:]':/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: 'CustomSliderView' may not respond to '-updatePosition:'/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: (Messages without a matching method signature/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: will be assumed to return 'id' and accept/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m:90: warning: '...' as arguments.)3(22@72"Passing argument 1 of 'arrayWithObjects:' from incompatible pointer type311393482#117#152#0(6@65"/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m311393480#52#0#52#0#56"passing argument * of '*' from incompatible pointer type0(22@56"'CustomSliderView' may not respond to '-updatePosition:'311393482#392#136#0(6@65"/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m311393480#90#0#90#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311393482#528#125#0(6@65"/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m311393480#90#0#90#0#0"0(0#0#65"/Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m8614573600#1913"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/CustomSliderView.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/CustomSliderView.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/GradientView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393254.730128
-e311393254.876465
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/GradientView.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m311393254#311393254#0(0"0(0#0#61"/Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m8635105600#1905"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/GradientView.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/GradientView.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/LineView.o /Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393254.806373
-e311393254.921825
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/LineView.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m311393254#311393254#0(0"0(0#0#57"/Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m8761749024#1897"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/LineView.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/LineView.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIHorizontalControl.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393336.556449
-e311393336.814832
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIHorizontalControl.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m: In function '-[UIHorizontalControl(Hidden) createScrollingImage]':
-o/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m:125: warning: unused variable 'reference'
-lSLF07#2@76"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m311393336#311393336#0(248"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m: In function '-[UIHorizontalControl(Hidden) createScrollingImage]':/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m:125: warning: unused variable 'reference'1(22@27"Unused variable 'reference'311393336#137#111#0(6@68"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m311393312#125#0#125#0#19"unused variable '*'0(0#0#68"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m8629605856#1919"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIHorizontalControl.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIHorizontalControl.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkAppDelegate.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393254.445982
-e311393254.573608
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkAppDelegate.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m311393254#311393254#0(0"0(0#0#66"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m8673685312#1915"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkAppDelegate.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkAppDelegate.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkViewController.o /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393349.957836
-e311393350.038493
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkViewController.o
-x/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m311393349#311393350#0(0"0(0#0#69"/Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m8636784320#1921"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/Classes/UIWorkViewController.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWorkViewController.o0#
-
-CCompileC build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/main.o /Users/jcarlson/Software/iPhone/UIWork/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393254.444920
-e311393254.551529
-r1
-xCompileC
-xbuild/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/main.o
-x/Users/jcarlson/Software/iPhone/UIWork/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/jcarlson/Software/iPhone/UIWork/main.m311393254#311393254#0(0"0(0#0#45"/Users/jcarlson/Software/iPhone/UIWork/main.m8680784448#1881"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -include /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch -c /Users/jcarlson/Software/iPhone/UIWork/main.m -o /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-s311393253.211089
-e311393253.649318
-r1
-xCompileXIB
-x/Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib311393253#311393253#0(0"0(0#0#53"/Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib8678621920#569"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/MainWindow.nib /Users/jcarlson/Software/iPhone/UIWork/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-s311393253.211851
-e311393253.656297
-r1
-xCompileXIB
-x/Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib
-lSLF07#2@35"CompileXIB UIWorkViewController.xib311393253#311393253#0(0"0(0#0#63"/Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib8666314080#589"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWorkViewController.nib /Users/jcarlson/Software/iPhone/UIWork/UIWorkViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CGenerateDSYMFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app.dSYM /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork
-s311393482.985982
-e311393483.012184
-r1
-xGenerateDSYMFile
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app.dSYM
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/UIWork.app.dSYM build/Debug-iphonesimulator/UIWork.app/UIWork311393482#311393483#0(0"0(0#0#84"/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork8684912864#380"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork -o /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app.dSYM0#
-
-CLd /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork normal i386
-s311393482.958769
-e311393482.985884
-r1
-xLd
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork
-xnormal
-xi386
-lSLF07#2@89"Link /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork311393482#311393482#0(0"0(0#0#0"8738648288#917"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -filelist /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/Objects-normal/i386/UIWork.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/UIWork0#
-
-CProcessInfoPlistFile /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/Info.plist UIWork-Info.plist
-s311393253.206028
-e311393253.210999
-r1
-xProcessInfoPlistFile
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/Info.plist
-xUIWork-Info.plist
-lSLF07#2@25"Process UIWork-Info.plist311393253#311393253#0(0"0(0#0#56"/Users/jcarlson/Software/iPhone/UIWork/UIWork-Info.plist8693243680#476"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UIWork-Info.plist -genpkginfo /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app/Info.plist0#
-
-CProcessPCH /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch.gch UIWork_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s311393253.656428
-e311393254.444831
-r1
-xProcessPCH
-x/var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch.gch
-xUIWork_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile UIWork_Prefix.pch311393253#311393254#0(0"0(0#0#56"/Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch8756315264#1774"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-generated-files.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-own-target-headers.hmap -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-all-target-headers.hmap -iquote /Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/UIWork-project-headers.hmap -F/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator -I/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/include -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources/i386 -I/Users/jcarlson/Software/iPhone/UIWork/build/UIWork.build/Debug-iphonesimulator/UIWork.build/DerivedSources -c /Users/jcarlson/Software/iPhone/UIWork/UIWork_Prefix.pch -o /var/folders/Xi/XiywDM0HEr8QjcFRVoAGq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIWork_Prefix-ecejzglvmnozjoezagokfkcmysjf/UIWork_Prefix.pch.gch0#
-
-CTouch /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app
-s311393483.012268
-e311393483.014604
-r1
-xTouch
-x/Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app
-lSLF07#2@83"Touch /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app311393483#311393483#0(0"0(0#0#0"8666412640#277"    cd /Users/jcarlson/Software/iPhone/UIWork    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jcarlson/Software/iPhone/UIWork/build/Debug-iphonesimulator/UIWork.app0#
-

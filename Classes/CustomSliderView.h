@@ -30,8 +30,7 @@
 	
 	LineView * _line;
 	AnnotationView * _annotations;
-	
-	NSTimer * _timer;
+
 }
 
 @property(nonatomic,retain) GradientView * backgroundGradient;
