@@ -7,8 +7,7 @@
 //
 
 #import "UIWorkViewController.h"
-#import "UIHorizontalControl.h"
-#import "CustomSliderView.h"
+#import "SlideRuleControlView.h"
 
 @implementation UIWorkViewController
 
@@ -29,10 +28,10 @@
 	UIView * view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	[view setBackgroundColor:[UIColor lightGrayColor]];
 	
-	CustomSliderView * customSlider = [[CustomSliderView alloc] initWithFrame:CGRectMake(10, 100, 300, 50)];
-	[view addSubview:customSlider];
-	[customSlider release];
 	
+	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 100, 300, 50)];
+	[view addSubview:slideRuler];
+	[slideRuler release];	
 	
 	self.view = view;
 	[view release];

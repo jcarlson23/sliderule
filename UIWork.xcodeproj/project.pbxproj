@@ -16,9 +16,10 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* UIWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* UIWorkViewController.m */; };
 		BE3614FB12898826004238BF /* AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3614FA12898826004238BF /* AnnotationView.m */; };
-		BE39A90E1286391D00808115 /* UIHorizontalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BE39A90D1286391D00808115 /* UIHorizontalControl.m */; };
 		BE39A91112863AE600808115 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE39A91012863AE600808115 /* QuartzCore.framework */; };
 		BE3CE066128AD6F4004D3B01 /* CustomSliderTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CE065128AD6F4004D3B01 /* CustomSliderTheme.m */; };
+		BE60577E12900D77008922A8 /* GradientCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE60577D12900D77008922A8 /* GradientCoverView.m */; };
+		BE60578112900E0C008922A8 /* SlideRuleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE60578012900E0C008922A8 /* SlideRuleControlView.m */; };
 		BE6438C81288FF4F003412F6 /* CustomSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438C71288FF4F003412F6 /* CustomSliderView.m */; };
 		BE6438D71288FFA0003412F6 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438D61288FFA0003412F6 /* GradientView.m */; };
 		BE6439141289056F003412F6 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6439131289056F003412F6 /* LineView.m */; };
@@ -40,11 +41,13 @@
 		8D1107310486CEB800E47090 /* UIWork-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UIWork-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		BE3614F912898826004238BF /* AnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationView.h; sourceTree = "<group>"; };
 		BE3614FA12898826004238BF /* AnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationView.m; sourceTree = "<group>"; };
-		BE39A90C1286391D00808115 /* UIHorizontalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHorizontalControl.h; sourceTree = "<group>"; };
-		BE39A90D1286391D00808115 /* UIHorizontalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHorizontalControl.m; sourceTree = "<group>"; };
 		BE39A91012863AE600808115 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BE3CE064128AD6F4004D3B01 /* CustomSliderTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSliderTheme.h; sourceTree = "<group>"; };
 		BE3CE065128AD6F4004D3B01 /* CustomSliderTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSliderTheme.m; sourceTree = "<group>"; };
+		BE60577C12900D77008922A8 /* GradientCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientCoverView.h; sourceTree = "<group>"; };
+		BE60577D12900D77008922A8 /* GradientCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientCoverView.m; sourceTree = "<group>"; };
+		BE60577F12900E0C008922A8 /* SlideRuleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideRuleControlView.h; sourceTree = "<group>"; };
+		BE60578012900E0C008922A8 /* SlideRuleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideRuleControlView.m; sourceTree = "<group>"; };
 		BE6438C61288FF4F003412F6 /* CustomSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSliderView.h; sourceTree = "<group>"; };
 		BE6438C71288FF4F003412F6 /* CustomSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSliderView.m; sourceTree = "<group>"; };
 		BE6438D51288FFA0003412F6 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -77,8 +80,6 @@
 				1D3623250D0F684500981E51 /* UIWorkAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* UIWorkViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* UIWorkViewController.m */,
-				BE39A90C1286391D00808115 /* UIHorizontalControl.h */,
-				BE39A90D1286391D00808115 /* UIHorizontalControl.m */,
 				BE6438C61288FF4F003412F6 /* CustomSliderView.h */,
 				BE6438C71288FF4F003412F6 /* CustomSliderView.m */,
 				BE3CE064128AD6F4004D3B01 /* CustomSliderTheme.h */,
@@ -87,6 +88,10 @@
 				BE6439131289056F003412F6 /* LineView.m */,
 				BE3614F912898826004238BF /* AnnotationView.h */,
 				BE3614FA12898826004238BF /* AnnotationView.m */,
+				BE60577C12900D77008922A8 /* GradientCoverView.h */,
+				BE60577D12900D77008922A8 /* GradientCoverView.m */,
+				BE60577F12900E0C008922A8 /* SlideRuleControlView.h */,
+				BE60578012900E0C008922A8 /* SlideRuleControlView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -205,12 +210,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* UIWorkAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* UIWorkViewController.m in Sources */,
-				BE39A90E1286391D00808115 /* UIHorizontalControl.m in Sources */,
 				BE6438C81288FF4F003412F6 /* CustomSliderView.m in Sources */,
 				BE6438D71288FFA0003412F6 /* GradientView.m in Sources */,
 				BE6439141289056F003412F6 /* LineView.m in Sources */,
 				BE3614FB12898826004238BF /* AnnotationView.m in Sources */,
 				BE3CE066128AD6F4004D3B01 /* CustomSliderTheme.m in Sources */,
+				BE60577E12900D77008922A8 /* GradientCoverView.m in Sources */,
+				BE60578112900E0C008922A8 /* SlideRuleControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

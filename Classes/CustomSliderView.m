@@ -44,14 +44,6 @@
 		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, 2*width, self.contentSize.height)];
 		[self addSubview:_annotations];
 		
-		/* Add a top mask for a mask to give a 3-D look */
-		CAGradientLayer * gradient = [CAGradientLayer layer];
-		[gradient setFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.width)];
-		[gradient setTransform:CATransform3DMakeRotation(90 * M_PI / 180.0, 0, 0, 1)];
-		UIColor * semiBlack = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
-		[gradient setColors:(id)[NSArray arrayWithObjects:semiBlack.CGColor,(id)[UIColor clearColor].CGColor,(id)semiBlack.CGColor,nil]];
-		[[self layer] addSublayer:gradient];
-		
 		// [self.layer setBorderColor:[UIColor blackColor].CGColor];
 		// [self.layer setBorderWidth:2.0f];
 		
