@@ -48,5 +48,11 @@
     [super dealloc];
 }
 
+#pragma mark -
+#pragma mark Setters
+- (void) setTheme:(CustomSliderTheme*)theme
+{
+	
+}
 
 @end

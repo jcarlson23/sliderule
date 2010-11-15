@@ -21,6 +21,7 @@
 	GradientView * backgroundGradient;
 	CGFloat _minValue;
 	CGFloat _maxValue;
+	CGFloat _currentValue;
 	unsigned int ticksInMinorInterval;
 	unsigned int ticksInMajorInterval;
 	UIColor * lineColor;
@@ -36,6 +37,7 @@
 @property(nonatomic,retain) GradientView * backgroundGradient;
 @property(readwrite) CGFloat minValue;
 @property(readwrite) CGFloat maxValue;
+@property(readonly) CGFloat currentValue;
 @property(readwrite) unsigned int ticksInMinorInterval;
 @property(readwrite) unsigned int ticksInMajorInerval;
 @property(nonatomic,retain) UIColor * lineColor;

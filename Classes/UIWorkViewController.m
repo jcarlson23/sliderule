@@ -8,6 +8,7 @@
 
 #import "UIWorkViewController.h"
 #import "SlideRuleControlView.h"
+#import "CoverFlowQuestionView.h"
 
 @implementation UIWorkViewController
 
@@ -32,6 +33,13 @@
 	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 100, 300, 50)];
 	[view addSubview:slideRuler];
 	[slideRuler release];	
+	
+	CoverFlowQuestionView * coverQuestion = [[CoverFlowQuestionView alloc] 
+											 initWithFrame:CGRectMake(10, 200, 300, 200)];
+	NSArray * questions = [NSArray arrayWithObjects:@"First",@"Second",@"Third",@"Fourth",@"Fifth",nil];
+	[coverQuestion layoutQuestions:questions];
+	[view addSubview:coverQuestion];
+	[coverQuestion release];
 	
 	self.view = view;
 	[view release];

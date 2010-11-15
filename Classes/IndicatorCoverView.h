@@ -10,7 +10,9 @@
 
 
 @interface IndicatorCoverView : UIView {
-
+	UIColor * indicatorColor;
 }
+
+@property(nonatomic,retain) UIColor * indicatorColor;
 
 @end

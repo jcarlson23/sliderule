@@ -44,15 +44,15 @@
 	
 	
 	// CGContextShowTextAtPoint(context, 90, y, buffer, strlen(buffer)-1);
-#define TICKS 11
-	for (i=0; i<TICKS; i++)
+#define TICKS 10
+	for (i=0; i<=TICKS; i++)
 	{
 		sprintf(buffer,"%d",i);
 		NSString * temp = [NSString stringWithFormat:@"%s",buffer];
 		CGSize sizeOfString = [temp sizeWithFont:[UIFont fontWithName:@"Helvetica" size:10] constrainedToSize:CGSizeMake(100, 100)];
 		len = strlen(buffer);
 		CGFloat offset = sizeOfString.width/2;
-		x = i*(width/TICKS);
+		x = i*(width/2/TICKS)+width/4;
 		CGContextShowTextAtPoint(context, x-offset, height/2-15, buffer, strlen(buffer));
 	}
 	 

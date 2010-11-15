@@ -11,11 +11,13 @@
 
 @implementation IndicatorCoverView
 
+@synthesize indicatorColor;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
 		[self setBackgroundColor:[UIColor clearColor]];
+		indicatorColor = [UIColor blackColor];
     }
     return self;
 }
@@ -44,7 +46,7 @@
 	// draw our triangle
 	CGFloat triDim = height/5;
 	CGFloat x1 = width/2 - triDim, x2 = width/2 + triDim, y1 = triDim, y2 = 0;
-	CGContextSetFillColorWithColor(context, [UIColor blackColor].CGColor);
+	CGContextSetFillColorWithColor(context, indicatorColor.CGColor);
 	CGContextMoveToPoint(context, x1, y2);
 	CGContextAddLineToPoint(context, width/2, y1);
 	CGContextAddLineToPoint(context, x2, y2);
@@ -59,6 +61,7 @@
 
 
 - (void)dealloc {
+	[indicatorColor release];
     [super dealloc];
 }
 

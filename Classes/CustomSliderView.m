@@ -18,6 +18,7 @@
 @synthesize backgroundGradient;
 @synthesize minValue=_minValue;
 @synthesize maxValue=_maxValue;
+@synthesize currentValue=_currentValue;
 @synthesize ticksInMinorInterval;
 @synthesize ticksInMajorInerval;
 @synthesize lineColor;
@@ -53,6 +54,9 @@
 		[self setShowsHorizontalScrollIndicator:NO];
 		
 		[self setDelegate:self];
+		
+		CGPoint startingContextPt = CGPointMake( width / 2, 0);
+		[self setContentOffset:startingContextPt];
     }
     return self;
 }

@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @class CustomSliderView;
+@class CustomSliderTheme;
 
 @interface SlideRuleControlView : UIView {
 	CustomSliderView * slider;
 	
 }
+
+- (void) setTheme:(CustomSliderTheme*)theme;
 
 @end
