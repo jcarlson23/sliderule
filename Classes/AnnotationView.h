@@ -10,7 +10,9 @@
 
 
 @interface AnnotationView : UIView {
-	
+	NSUInteger numberOfMajorTicks;
 }
+
+@property(readwrite) NSUInteger numberOfMajorTicks;
 
 @end

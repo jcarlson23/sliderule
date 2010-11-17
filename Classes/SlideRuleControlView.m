@@ -13,6 +13,7 @@
 
 @implementation SlideRuleControlView
 
+@synthesize slideDelegate;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -20,6 +21,9 @@
 		
 		slider = [[CustomSliderView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 		[self addSubview:slider];
+		slider.maxValue = 10.0;
+		slider.minValue = 0.0;
+		[slider setSliderDelegate:self];
 		
 		GradientCoverView * cover = [[GradientCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 		[self addSubview:cover];
@@ -48,11 +52,29 @@
     [super dealloc];
 }
 
+
+- (IBAction) valueDidChange:(UIEvent*)event
+{
+	CGFloat value = [self currentValue];
+	NSLog(@"The current value is %f",value);
+}
+
 #pragma mark -
 #pragma mark Setters
 - (void) setTheme:(CustomSliderTheme*)theme
 {
 	
+}
+
+- (CGFloat) currentValue
+{
+	CGFloat frameWidth = self.frame.size.width;
+	CGSize  scrollSize = [slider contentSize];
+	CGFloat range      = slider.maxValue - slider.minValue;
+	CGFloat scrollX    = [slider contentOffset].x;
+	CGFloat scaledX    = scrollX / (scrollSize.width/2.0);
+	CGFloat xvalue     = scaledX * range + slider.minValue;
+	return xvalue;
 }
 
 @end

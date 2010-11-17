@@ -58,13 +58,15 @@
 	CGContextSetLineWidth(context, 2.0);
 	CGContextSetStrokeColorWithColor(context, [UIColor lightGrayColor].CGColor);
 	
-	for ( x=width/4; x<(3*width/4); x+=(width/2/(_ticksPerMinorInterval)) )
+	for ( x=width/4; x<=(3*width/4); x+=(width/2/(_ticksPerMinorInterval)) )
 	{
 		CGContextMoveToPoint(context, x, mid-y);
 		CGContextAddLineToPoint(context, x, mid-y);
 		CGContextAddLineToPoint(context, x, mid+y);
 		CGContextStrokePath(context);
-		CGFloat smallWidth = (width/(_ticksPerMinorInterval));
+		CGFloat smallWidth = (width/2/(_ticksPerMinorInterval));
+		
+		if ( x >= (3*width/4) ) break;
 		for (float dx=smallWidth/10.0f; dx<smallWidth; dx+=(smallWidth/10.0f))
 		{
 			CGContextMoveToPoint(context, x+dx, mid-y/2);

@@ -11,7 +11,7 @@
 @class GradientView;
 @class LineView;
 @class AnnotationView;
-
+@class SlideRuleControlView;
 
 
 @interface CustomSliderView : UIScrollView 
@@ -31,9 +31,11 @@
 	
 	LineView * _line;
 	AnnotationView * _annotations;
+	SlideRuleControlView * SliderDelegate;
 
 }
 
+@property(nonatomic,retain) SlideRuleControlView * SliderDelegate;
 @property(nonatomic,retain) GradientView * backgroundGradient;
 @property(readwrite) CGFloat minValue;
 @property(readwrite) CGFloat maxValue;

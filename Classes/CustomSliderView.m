@@ -11,7 +11,7 @@
 #import "LineView.h"
 #import "AnnotationView.h"
 #import "CustomSliderTheme.h"
-
+#import "SlideRuleControlView.h"
 
 @implementation CustomSliderView
 
@@ -25,6 +25,7 @@
 @synthesize textColor;
 @synthesize borderColor;
 @synthesize gradientColors;
+@synthesize SliderDelegate;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -49,7 +50,7 @@
 		// [self.layer setBorderWidth:2.0f];
 		
 		/* For styling constraints */
-		[self setBounces:NO];
+		[self setBounces:YES];
 		[self setShowsVerticalScrollIndicator:NO];
 		[self setShowsHorizontalScrollIndicator:NO];
 		
@@ -83,6 +84,11 @@
 - (void) scrollViewDidScroll:(UIScrollView *) scrollView
 {
 	NSLog(@"Scrolling position is %f",self.contentOffset.x);
+	
+	if ( SliderDelegate)
+	{
+		[SliderDelegate valueDidChange:nil];
+	}
 }
 
 @end

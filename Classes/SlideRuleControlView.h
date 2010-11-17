@@ -11,11 +11,20 @@
 @class CustomSliderView;
 @class CustomSliderTheme;
 
+@protocol SlideRuleDelegate
+- (void) slideValueChanged:(id)sender;
+@end
+
 @interface SlideRuleControlView : UIView {
 	CustomSliderView * slider;
+	id<SlideRuleDelegate> slideDelegate;
 	
 }
 
+@property(nonatomic,retain) IBOutlet id<SlideRuleDelegate> slideDelegate;
+
 - (void) setTheme:(CustomSliderTheme*)theme;
+- (IBAction) valueDidChange:(UIEvent*)event;
+- (CGFloat) currentValue;
 
 @end

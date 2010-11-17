@@ -36,9 +36,9 @@
 	
 	CoverFlowQuestionView * coverQuestion = [[CoverFlowQuestionView alloc] 
 											 initWithFrame:CGRectMake(10, 200, 300, 200)];
-	NSArray * questions = [NSArray arrayWithObjects:@"First",@"Second",@"Third",@"Fourth",@"Fifth",nil];
+	NSArray * questions = [NSArray arrayWithObjects:@"First",@"Second",@"Third",@"Fourth",@"Fifth",@"Sixth",@"Seventh",nil];
 	[coverQuestion layoutQuestions:questions];
-	[view addSubview:coverQuestion];
+	// [view addSubview:coverQuestion];
 	[coverQuestion release];
 	
 	self.view = view;

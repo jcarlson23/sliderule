@@ -11,11 +11,14 @@
 
 @implementation AnnotationView
 
+@synthesize numberOfMajorTicks;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
 		[self setBackgroundColor:[UIColor clearColor]];
+		
+		numberOfMajorTicks = 10;
     }
     return self;
 }
@@ -43,16 +46,14 @@
   //  CGContextShowTextAtPoint(context,self.frame.size.width/2,self.frame.size.height/2,buffer,strlen(buffer)-1);
 	
 	
-	// CGContextShowTextAtPoint(context, 90, y, buffer, strlen(buffer)-1);
-#define TICKS 10
-	for (i=0; i<=TICKS; i++)
+	for (i=0; i<=numberOfMajorTicks; i++)
 	{
 		sprintf(buffer,"%d",i);
 		NSString * temp = [NSString stringWithFormat:@"%s",buffer];
 		CGSize sizeOfString = [temp sizeWithFont:[UIFont fontWithName:@"Helvetica" size:10] constrainedToSize:CGSizeMake(100, 100)];
 		len = strlen(buffer);
 		CGFloat offset = sizeOfString.width/2;
-		x = i*(width/2/TICKS)+width/4;
+		x = i*(width/2/numberOfMajorTicks)+width/4;
 		CGContextShowTextAtPoint(context, x-offset, height/2-15, buffer, strlen(buffer));
 	}
 	 

@@ -24,6 +24,8 @@
 		BE6438C81288FF4F003412F6 /* CustomSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438C71288FF4F003412F6 /* CustomSliderView.m */; };
 		BE6438D71288FFA0003412F6 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438D61288FFA0003412F6 /* GradientView.m */; };
 		BE6439141289056F003412F6 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6439131289056F003412F6 /* LineView.m */; };
+		BE7D7F021291DB9C004CEC9F /* SurveryQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */; };
+		BE7D7F031291DB9C004CEC9F /* SurveryQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */; };
 		BE8213AE1290C78300F5F7E3 /* CoverFlowQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8213AD1290C78300F5F7E3 /* CoverFlowQuestionView.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,9 @@
 		BE6438D61288FFA0003412F6 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		BE6439121289056F003412F6 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
 		BE6439131289056F003412F6 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		BE7D7EFF1291DB9C004CEC9F /* SurveryQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveryQuestionViewController.h; sourceTree = "<group>"; };
+		BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveryQuestionViewController.m; sourceTree = "<group>"; };
+		BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveryQuestionViewController.xib; sourceTree = "<group>"; };
 		BE8213AC1290C78300F5F7E3 /* CoverFlowQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowQuestionView.h; sourceTree = "<group>"; };
 		BE8213AD1290C78300F5F7E3 /* CoverFlowQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowQuestionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +93,9 @@
 				28D7ACF70DDB3853001CB0EB /* UIWorkViewController.m */,
 				BE8213AA1290C50E00F5F7E3 /* CoverFlowQuestion */,
 				BE8213A81290C4F000F5F7E3 /* SlideRuleControl */,
+				BE7D7EFF1291DB9C004CEC9F /* SurveryQuestionViewController.h */,
+				BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */,
+				BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* UIWorkViewController.xib in Resources */,
+				BE7D7F031291DB9C004CEC9F /* SurveryQuestionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +254,7 @@
 				BE60578112900E0C008922A8 /* SlideRuleControlView.m in Sources */,
 				BE60582F12901D31008922A8 /* IndicatorCoverView.m in Sources */,
 				BE8213AE1290C78300F5F7E3 /* CoverFlowQuestionView.m in Sources */,
+				BE7D7F021291DB9C004CEC9F /* SurveryQuestionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
