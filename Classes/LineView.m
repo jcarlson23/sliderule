@@ -46,7 +46,7 @@
 	
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	CGRect line = CGRectMake(0, self.frame.size.height/2, self.frame.size.width, 4);
-	CGContextSetFillColorWithColor(context, [UIColor lightGrayColor].CGColor);
+	CGContextSetFillColorWithColor(context, _lineColor.CGColor);
 	CGContextAddRect(context, line);
 	CGContextFillPath(context);
 	
@@ -56,7 +56,7 @@
 	CGFloat mid   = self.frame.size.height/2;
 	CGFloat y     = mid/4;
 	CGContextSetLineWidth(context, 2.0);
-	CGContextSetStrokeColorWithColor(context, [UIColor lightGrayColor].CGColor);
+	CGContextSetStrokeColorWithColor(context, _lineColor.CGColor);
 	
 	for ( x=width/4; x<=(3*width/4); x+=(width/2/(_ticksPerMinorInterval)) )
 	{

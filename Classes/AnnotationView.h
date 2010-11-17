@@ -11,8 +11,10 @@
 
 @interface AnnotationView : UIView {
 	NSUInteger numberOfMajorTicks;
+	UIColor * textColor;
 }
 
 @property(readwrite) NSUInteger numberOfMajorTicks;
+@property(nonatomic,retain) UIColor * textColor;
 
 @end

@@ -31,12 +31,17 @@
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
 		
+		if ( gradientColors == nil ) {
+			gradientColors = [[NSArray alloc] initWithObjects:[UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:0.9],
+						  [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1],nil];
+		}
+		
 		CGSize contentSize = CGSizeMake(2*self.bounds.size.width, self.bounds.size.height);
 		CGFloat width = self.bounds.size.width;
 		[self setContentSize:contentSize];
 		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(-0.0*width, 0, 2*width, self.contentSize.height)];
-		[backgroundGradient setHighColor:[UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:0.9]];
-		[backgroundGradient	setLowColor:[UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1]];
+		[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
+		[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
 		[self addSubview:backgroundGradient];
 		
 		_line = [[LineView alloc] initWithFrame:CGRectMake(-0.0*width, 0, 2*width, self.contentSize.height)];
@@ -45,9 +50,6 @@
 		
 		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, 2*width, self.contentSize.height)];
 		[self addSubview:_annotations];
-		
-		// [self.layer setBorderColor:[UIColor blackColor].CGColor];
-		// [self.layer setBorderWidth:2.0f];
 		
 		/* For styling constraints */
 		[self setBounces:YES];
@@ -78,6 +80,29 @@
     [super dealloc];
 }
 
+- (void) setTextColor:(UIColor *)color
+{
+	[textColor release];
+	textColor = [color retain];
+	
+	[_line setLineColor:color];
+}
+
+- (void) setLineColor:(UIColor *)color
+{
+	[lineColor release];
+	lineColor = [color retain];
+	
+	[_annotations setTextColor:color];
+}
+
+- (void) setGradientColors:(NSArray *)array
+{
+	[gradientColors release];
+	gradientColors  = [array retain];
+	[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
+	[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
+}
 
 #pragma mark -
 #pragma mark ScrollView Delegate

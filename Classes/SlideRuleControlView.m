@@ -10,6 +10,7 @@
 #import "GradientCoverView.h"
 #import "CustomSliderView.h"
 #import "IndicatorCoverView.h"
+#import "CustomSliderTheme.h"
 
 @implementation SlideRuleControlView
 
@@ -25,15 +26,14 @@
 		slider.minValue = 0.0;
 		[slider setSliderDelegate:self];
 		
-		GradientCoverView * cover = [[GradientCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		cover = [[GradientCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 		[self addSubview:cover];
 		[cover setUserInteractionEnabled:NO];
 		[cover release];
 		
-		IndicatorCoverView * indicator = [[IndicatorCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		indicator = [[IndicatorCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 		[self addSubview:indicator];
 		[indicator setUserInteractionEnabled:NO];
-		[indicator release];
 		
     }
     return self;
@@ -48,6 +48,9 @@
 */
 
 - (void)dealloc {
+	
+	[indicator release];
+	[cover release];
 	[slider release];
     [super dealloc];
 }
@@ -61,14 +64,27 @@
 
 #pragma mark -
 #pragma mark Setters
-- (void) setTheme:(CustomSliderTheme*)theme
+- (void) applyTheme:(CustomSliderTheme*)theme
 {
+	// set the indicator color
+	NSLog(@"indicator color %@",theme.indicatorColor);
+	[indicator setIndicatorColor:theme.indicatorColor];
 	
+	// set the gradient colors
+	[slider setGradientColors:theme.gradientColors];
+	
+	// apply the text color 
+	[slider setTextColor:theme.textColor];
+	
+	// apply the line color
+	[slider setLineColor:theme.lineColor];
+	
+	// done...
 }
 
 - (CGFloat) currentValue
 {
-	CGFloat frameWidth = self.frame.size.width;
+
 	CGSize  scrollSize = [slider contentSize];
 	CGFloat range      = slider.maxValue - slider.minValue;
 	CGFloat scrollX    = [slider contentOffset].x;

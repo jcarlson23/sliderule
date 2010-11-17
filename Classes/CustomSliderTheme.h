@@ -19,12 +19,14 @@ typedef enum CustomSliderEnumerator
 		UIColor * lineColor;
 		UIColor * textColor;
 		UIColor * borderColor;
+		UIColor * indicatorColor;
 		NSArray * gradientColors;
 }
 
 @property(nonatomic,retain) UIColor * lineColor;
 @property(nonatomic,retain) UIColor * textColor;
 @property(nonatomic,retain) UIColor * borderColor;
+@property(nonatomic,retain) UIColor * indicatorColor;
 @property(nonatomic,retain) NSArray * gradientColors;
 
 + (CustomSliderTheme*) buildTheme:(CustomSliderEnumerator)enumerator;

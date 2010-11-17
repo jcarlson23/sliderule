@@ -10,20 +10,26 @@
 
 @class CustomSliderView;
 @class CustomSliderTheme;
+@class GradientCoverView;
+@class IndicatorCoverView;
 
 @protocol SlideRuleDelegate
 - (void) slideValueChanged:(id)sender;
 @end
 
 @interface SlideRuleControlView : UIView {
+	
 	CustomSliderView * slider;
+	GradientCoverView * cover;
+	IndicatorCoverView * indicator;
+	
 	id<SlideRuleDelegate> slideDelegate;
 	
 }
 
 @property(nonatomic,retain) IBOutlet id<SlideRuleDelegate> slideDelegate;
 
-- (void) setTheme:(CustomSliderTheme*)theme;
+- (void) applyTheme:(CustomSliderTheme*)theme;
 - (IBAction) valueDidChange:(UIEvent*)event;
 - (CGFloat) currentValue;
 

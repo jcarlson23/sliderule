@@ -9,6 +9,7 @@
 #import "UIWorkViewController.h"
 #import "SlideRuleControlView.h"
 #import "CoverFlowQuestionView.h"
+#import "CustomSliderTheme.h"
 
 @implementation UIWorkViewController
 
@@ -27,10 +28,12 @@
 - (void)loadView {
 	
 	UIView * view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	[view setBackgroundColor:[UIColor lightGrayColor]];
+	[view setBackgroundColor:[UIColor whiteColor]];
 	
 	
 	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 100, 300, 50)];
+	CustomSliderTheme * theme = [CustomSliderTheme buildTheme:kCSThemeWhite];
+	[slideRuler applyTheme:theme];
 	[view addSubview:slideRuler];
 	[slideRuler release];	
 	

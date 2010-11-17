@@ -11,12 +11,16 @@
 
 @implementation AnnotationView
 
-@synthesize numberOfMajorTicks;
+@synthesize numberOfMajorTicks, textColor;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
 		[self setBackgroundColor:[UIColor clearColor]];
+		
+		if ( textColor == nil ) {
+			self.textColor = [UIColor whiteColor];
+		}
 		
 		numberOfMajorTicks = 10;
     }
@@ -37,7 +41,7 @@
 	CGFloat width = self.frame.size.width;
 	CGFloat height = self.frame.size.height;
 	
-	CGContextSetStrokeColorWithColor(context, [UIColor whiteColor].CGColor);
+	CGContextSetStrokeColorWithColor(context, textColor.CGColor);
 	sprintf(buffer,"Testing!");
 	CGContextSetRGBFillColor(context,1,1,1,1);
     CGContextSelectFont(context,"Helvetica",10,kCGEncodingMacRoman);
@@ -54,7 +58,8 @@
 		len = strlen(buffer);
 		CGFloat offset = sizeOfString.width/2;
 		x = i*(width/2/numberOfMajorTicks)+width/4;
-		CGContextShowTextAtPoint(context, x-offset, height/2-15, buffer, strlen(buffer));
+#define OFFSET 15.0f
+		CGContextShowTextAtPoint(context, x-offset, height/2 - OFFSET, buffer, strlen(buffer));
 	}
 	 
 	

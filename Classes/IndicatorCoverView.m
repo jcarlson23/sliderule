@@ -33,7 +33,7 @@
 	CGFloat height= rect.size.height;
 	
 	CGContextRef context = UIGraphicsGetCurrentContext();
-	CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
+	CGContextSetStrokeColorWithColor(context, indicatorColor.CGColor);
 	CGContextSetLineWidth(context, 3.0);
 	
 	CGContextMoveToPoint(context, 0, 0);
