@@ -31,18 +31,33 @@
 	[view setBackgroundColor:[UIColor whiteColor]];
 	
 	
-	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 100, 300, 50)];
+	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 150, 300, 50)];
 	CustomSliderTheme * theme = [CustomSliderTheme buildTheme:kCSThemeWhite];
-	[slideRuler applyTheme:theme];
+	for ( UIView * sviews in slideRuler.subviews )
+	{
+		NSLog(@"Sub View %@",sviews);
+		for ( UIView * subview in sviews.subviews )
+		{
+			NSLog(@"Sub View %@",subview);
+		}
+	}
 	[view addSubview:slideRuler];
+	[slideRuler applyTheme:theme];
 	[slideRuler release];	
 	
-	CoverFlowQuestionView * coverQuestion = [[CoverFlowQuestionView alloc] 
-											 initWithFrame:CGRectMake(10, 200, 300, 200)];
-	NSArray * questions = [NSArray arrayWithObjects:@"First",@"Second",@"Third",@"Fourth",@"Fifth",@"Sixth",@"Seventh",nil];
-	[coverQuestion layoutQuestions:questions];
-	// [view addSubview:coverQuestion];
-	[coverQuestion release];
+	NSLog(@"---------------------");
+	
+	SlideRuleControlView * secondSlider = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 300, 300, 50)];
+	[view addSubview:secondSlider];
+	for ( UIView * sviews in secondSlider.subviews )
+	{
+		NSLog(@"Sub View %@",sviews);
+		for ( UIView * subview in sviews.subviews )
+		{
+			NSLog(@"Sub View %@",subview);
+		}
+	}
+	[secondSlider release];
 	
 	self.view = view;
 	[view release];

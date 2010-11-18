@@ -11,7 +11,7 @@
 
 @implementation CustomSliderTheme
 
-@synthesize lineColor, textColor, borderColor, gradientColors, indicatorColor;
+@synthesize lineColor, textColor, borderColor, gradientColors, indicatorColor, backgroundColor;
 
 + (CustomSliderTheme*) buildTheme:(CustomSliderEnumerator)enumerator
 {
@@ -29,16 +29,18 @@
 			theme.gradientColors  = [[NSArray alloc] initWithObjects:lighterGray,darkerGray,nil];
 			theme.lineColor       = [UIColor lightGrayColor];
 			theme.textColor       = [UIColor whiteColor];
+			theme.backgroundColor = [UIColor lightGrayColor];
 			break;
 			
 			// ------------------- white theme --------------------------
 		case kCSThemeWhite:
-			theme.indicatorColor  = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+			theme.indicatorColor  = [UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:1];
 			UIColor * topColor    = [UIColor whiteColor];
 			UIColor * botColor    = [UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:0.9];
 			theme.gradientColors  = [[NSArray alloc] initWithObjects:topColor,botColor,nil];
 			theme.lineColor       = [UIColor lightGrayColor];
 			theme.textColor	      = [UIColor blackColor];
+			theme.backgroundColor = [UIColor whiteColor];
 			break;
 			
 		default:

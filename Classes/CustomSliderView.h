@@ -47,4 +47,6 @@
 @property(nonatomic,retain) UIColor * borderColor;
 @property(nonatomic,retain) NSArray * gradientColors;
 
+- (void) setBackgroundColorChart:(UIColor*)color;
+
 @end

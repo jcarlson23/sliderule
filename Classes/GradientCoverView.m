@@ -26,8 +26,10 @@
 		CAGradientLayer * gradient = [CAGradientLayer layer];
 		[gradient setFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 		[gradient setTransform:transform];
+		
 		// UIColor * semiBlack = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.9];
 		// UIColor * semiWhite = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.3];
+		
 		UIColor * semiBlack = [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:0.4];
 		UIColor * semiWhite = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.4];
 		[gradient setColors:(id)[NSArray arrayWithObjects:(id)semiBlack.CGColor,(id)semiWhite.CGColor,(id)semiBlack.CGColor,nil]];

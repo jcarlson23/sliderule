@@ -36,19 +36,21 @@
 						  [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1],nil];
 		}
 		
+#define CONTENT_SCALE 2
+		
 		CGSize contentSize = CGSizeMake(2*self.bounds.size.width, self.bounds.size.height);
 		CGFloat width = self.bounds.size.width;
 		[self setContentSize:contentSize];
-		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(-0.0*width, 0, 2*width, self.contentSize.height)];
+		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
 		[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
 		[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
 		[self addSubview:backgroundGradient];
 		
-		_line = [[LineView alloc] initWithFrame:CGRectMake(-0.0*width, 0, 2*width, self.contentSize.height)];
+		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
 		[self setDelegate:_line];
 		[self addSubview:_line];
 		
-		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, 2*width, self.contentSize.height)];
+		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
 		[self addSubview:_annotations];
 		
 		/* For styling constraints */
@@ -84,16 +86,16 @@
 {
 	[textColor release];
 	textColor = [color retain];
-	
-	[_line setLineColor:color];
+	[_annotations setTextColor:color];
+	[_annotations setNeedsDisplay];
 }
 
 - (void) setLineColor:(UIColor *)color
 {
 	[lineColor release];
 	lineColor = [color retain];
-	
-	[_annotations setTextColor:color];
+	[_line setLineColor:color];
+	[_line setNeedsDisplay];
 }
 
 - (void) setGradientColors:(NSArray *)array
@@ -102,6 +104,11 @@
 	gradientColors  = [array retain];
 	[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
 	[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
+}
+
+- (void) setBackgroundColorChart:(UIColor*)color
+{
+	[_line setBackgroundColor:color];
 }
 
 #pragma mark -

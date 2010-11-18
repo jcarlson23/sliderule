@@ -73,13 +73,18 @@
 	// set the gradient colors
 	[slider setGradientColors:theme.gradientColors];
 	
-	// apply the text color 
-	[slider setTextColor:theme.textColor];
-	
 	// apply the line color
 	[slider setLineColor:theme.lineColor];
 	
+	// apply the text color 
+	[slider setTextColor:theme.textColor];
+	
+	// apply the background color
+	[slider setBackgroundColorChart:theme.backgroundColor];
+	[slider setBackgroundColor:theme.backgroundColor];
+	
 	// done...
+	[slider setNeedsDisplay];
 }
 
 - (CGFloat) currentValue
