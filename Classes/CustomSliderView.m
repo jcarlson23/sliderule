@@ -26,6 +26,7 @@
 @synthesize borderColor;
 @synthesize gradientColors;
 @synthesize SliderDelegate;
+@synthesize scale;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -36,21 +37,21 @@
 						  [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1],nil];
 		}
 		
-#define CONTENT_SCALE 3
+		scale = 3;
 		
-		CGSize contentSize = CGSizeMake(CONTENT_SCALE*self.bounds.size.width, self.bounds.size.height);
+		CGSize contentSize = CGSizeMake(scale*self.bounds.size.width, self.bounds.size.height);
 		CGFloat width = self.bounds.size.width;
 		[self setContentSize:contentSize];
-		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
+		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
 		[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
 		[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
 		[self addSubview:backgroundGradient];
 		
-		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
+		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
 		[self setDelegate:_line];
 		[self addSubview:_line];
 		
-		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
+		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
 		[self addSubview:_annotations];
 		
 		/* For styling constraints */
@@ -60,7 +61,7 @@
 		
 		[self setDelegate:self];
 		
-		CGPoint startingContextPt = CGPointMake( (CONTENT_SCALE - 1) * width / 2 , 0);
+		CGPoint startingContextPt = CGPointMake( (scale - 1) * width / 2 , 0);
 		[self setContentOffset:startingContextPt];
     }
     return self;

@@ -28,6 +28,7 @@
 	UIColor * textColor;
 	UIColor * borderColor;
 	NSArray * gradientColors;
+	NSUInteger scale;
 	
 	LineView * _line;
 	AnnotationView * _annotations;
@@ -39,6 +40,7 @@
 @property(nonatomic,retain) GradientView * backgroundGradient;
 @property(readwrite) CGFloat minValue;
 @property(readwrite) CGFloat maxValue;
+@property(readwrite) NSUInteger scale;
 @property(readonly) CGFloat currentValue;
 @property(readwrite) unsigned int ticksInMinorInterval;
 @property(readwrite) unsigned int ticksInMajorInerval;
