@@ -36,9 +36,9 @@
 						  [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1],nil];
 		}
 		
-#define CONTENT_SCALE 2
+#define CONTENT_SCALE 3
 		
-		CGSize contentSize = CGSizeMake(2*self.bounds.size.width, self.bounds.size.height);
+		CGSize contentSize = CGSizeMake(CONTENT_SCALE*self.bounds.size.width, self.bounds.size.height);
 		CGFloat width = self.bounds.size.width;
 		[self setContentSize:contentSize];
 		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_SCALE*width, self.contentSize.height)];
@@ -60,7 +60,7 @@
 		
 		[self setDelegate:self];
 		
-		CGPoint startingContextPt = CGPointMake( width / 2, 0);
+		CGPoint startingContextPt = CGPointMake( (CONTENT_SCALE - 1) * width / 2 , 0);
 		[self setContentOffset:startingContextPt];
     }
     return self;
