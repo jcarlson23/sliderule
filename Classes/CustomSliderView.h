@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideRuleParams.h"
 
 @class GradientView;
 @class LineView;
@@ -52,3 +53,8 @@
 - (void) setBackgroundColorChart:(UIColor*)color;
 
 @end
+
+@interface CustomSliderView(Hidden)
+- (void) setup:(SliderParam*)parms;
+@end
+

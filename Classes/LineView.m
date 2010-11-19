@@ -29,7 +29,7 @@
 		_ticksPerMinorInterval = 10;
 		_ticksPerMajorInterval = 10;
 		_minTickValue = 0.0;
-		_maxTickValue = 100.0;
+		_maxTickValue = 10.0;
 		
 		_textColor = [UIColor whiteColor];
 		_lineColor = [UIColor lightGrayColor];

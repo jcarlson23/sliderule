@@ -65,6 +65,7 @@
 		BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveryQuestionViewController.xib; sourceTree = "<group>"; };
 		BE8213AC1290C78300F5F7E3 /* CoverFlowQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowQuestionView.h; sourceTree = "<group>"; };
 		BE8213AD1290C78300F5F7E3 /* CoverFlowQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowQuestionView.m; sourceTree = "<group>"; };
+		BEEF121112962B7C0009FDCF /* SlideRuleParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideRuleParams.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +168,7 @@
 				BE3CE065128AD6F4004D3B01 /* CustomSliderTheme.m */,
 				BE6439121289056F003412F6 /* LineView.h */,
 				BE6439131289056F003412F6 /* LineView.m */,
+				BEEF121112962B7C0009FDCF /* SlideRuleParams.h */,
 			);
 			name = SlideRuleControl;
 			sourceTree = "<group>";

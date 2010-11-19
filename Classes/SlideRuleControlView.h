@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideRuleParams.h"
 
 @class CustomSliderView;
 @class CustomSliderTheme;
 @class GradientCoverView;
 @class IndicatorCoverView;
+
+
 
 @protocol SlideRuleDelegate
 - (void) slideValueChanged:(id)sender;
@@ -29,6 +32,7 @@
 
 @property(nonatomic,retain) IBOutlet id<SlideRuleDelegate> slideDelegate;
 
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)params;
 - (void) applyTheme:(CustomSliderTheme*)theme;
 - (IBAction) valueDidChange:(UIEvent*)event;
 - (CGFloat) currentValue;

@@ -13,12 +13,26 @@
 
 @synthesize numberOfMajorTicks, textColor;
 
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)parms
+{
+	if ( (self = [super initWithFrame:frame]) )
+	{
+		[self setBackgroundColor:[UIColor clearColor]];
+		numberOfMajorTicks = parms->numberIntervals;
+		minValue = parms->minValue;
+		maxValue = parms->maxValue;
+	}
+	return self;
+}
+
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
 		[self setBackgroundColor:[UIColor clearColor]];
 		
 		numberOfMajorTicks = 10;
+		minValue = 0.0;
+		maxValue = 20.0f;
     }
     return self;
 }
@@ -40,6 +54,8 @@
 	char buffer[20];
 	CGFloat width = self.frame.size.width;
 	CGFloat height = self.frame.size.height;
+	float diff = ( maxValue - minValue ) / numberOfMajorTicks;
+	float marker = minValue;
 	
 	float * components;
 	components = CGColorGetComponents(textColor.CGColor);
@@ -53,7 +69,7 @@
 	
 	for (i=0; i<=numberOfMajorTicks; i++)
 	{
-		sprintf(buffer,"%d",i);
+		sprintf(buffer,"%d",(int)marker);
 		NSString * temp = [NSString stringWithFormat:@"%s",buffer];
 		CGSize sizeOfString = [temp sizeWithFont:[UIFont fontWithName:@"Helvetica" size:10] constrainedToSize:CGSizeMake(100, 100)];
 		len = strlen(buffer);
@@ -61,6 +77,7 @@
 		x = i*(width/2/numberOfMajorTicks)+width/4;
 #define OFFSET 15.0f
 		CGContextShowTextAtPoint(context, x-offset, height/2 - OFFSET, buffer, strlen(buffer));
+		marker += diff;
 	}
 	 
 	

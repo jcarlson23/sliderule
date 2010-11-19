@@ -16,6 +16,29 @@
 
 @synthesize slideDelegate;
 
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)params
+{
+	if ( (self = [super initWithFrame:frame]) )
+	{
+		// initialization code
+		slider = [[CustomSliderView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		[self addSubview:slider];
+		slider.maxValue = 10.0;
+		slider.minValue = 0.0;
+		[slider setSliderDelegate:self];
+		
+		cover = [[GradientCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		[self addSubview:cover];
+		[cover setUserInteractionEnabled:NO];
+		[cover release];
+		
+		indicator = [[IndicatorCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		[self addSubview:indicator];
+		[indicator setUserInteractionEnabled:NO];
+	}
+	return self;
+}
+
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code

@@ -13,6 +13,49 @@
 #import "CustomSliderTheme.h"
 #import "SlideRuleControlView.h"
 
+@implementation CustomSliderView(Hidden)
+
+- (void) setup:(SliderParam*)parms;
+{
+	scale = 3;
+	
+	CGSize contentSize = CGSizeMake(scale*self.bounds.size.width, self.bounds.size.height);
+	CGFloat width = self.bounds.size.width;
+	[self setContentSize:contentSize];
+	backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
+	[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
+	[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
+	[self addSubview:backgroundGradient];
+	
+	if ( parms ) {
+		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
+	} else {
+		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
+	}
+	[self setDelegate:_line];
+	[self addSubview:_line];
+	
+	if ( parms ) {
+		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height) 
+											   params:parms];
+	} else {
+		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
+	}
+	[self addSubview:_annotations];
+	
+	/* For styling constraints */
+	[self setBounces:YES];
+	[self setShowsVerticalScrollIndicator:NO];
+	[self setShowsHorizontalScrollIndicator:NO];
+	
+	[self setDelegate:self];
+	
+	CGPoint startingContextPt = CGPointMake( (scale - 1) * width / 2 , 0);
+	[self setContentOffset:startingContextPt];
+}
+
+@end
+
 @implementation CustomSliderView
 
 @synthesize backgroundGradient;
@@ -37,32 +80,8 @@
 						  [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1],nil];
 		}
 		
-		scale = 3;
+		[self setup:NULL];
 		
-		CGSize contentSize = CGSizeMake(scale*self.bounds.size.width, self.bounds.size.height);
-		CGFloat width = self.bounds.size.width;
-		[self setContentSize:contentSize];
-		backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
-		[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
-		[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
-		[self addSubview:backgroundGradient];
-		
-		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
-		[self setDelegate:_line];
-		[self addSubview:_line];
-		
-		_annotations = [[AnnotationView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
-		[self addSubview:_annotations];
-		
-		/* For styling constraints */
-		[self setBounces:YES];
-		[self setShowsVerticalScrollIndicator:NO];
-		[self setShowsHorizontalScrollIndicator:NO];
-		
-		[self setDelegate:self];
-		
-		CGPoint startingContextPt = CGPointMake( (scale - 1) * width / 2 , 0);
-		[self setContentOffset:startingContextPt];
     }
     return self;
 }
@@ -125,3 +144,5 @@
 }
 
 @end
+
+
