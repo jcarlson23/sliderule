@@ -14,7 +14,7 @@
 
 @implementation SlideRuleControlView
 
-@synthesize slideDelegate;
+@synthesize slideDelegate, value;
 
 - (id)initWithFrame:(CGRect)frame params:(SliderParam*)params
 {
@@ -23,8 +23,8 @@
 		// initialization code
 		slider = [[CustomSliderView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 		[self addSubview:slider];
-		slider.maxValue = 10.0;
-		slider.minValue = 0.0;
+		slider.maxValue = params->maxValue;
+		slider.minValue = params->minValue;
 		[slider setSliderDelegate:self];
 		
 		cover = [[GradientCoverView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
@@ -45,7 +45,7 @@
 		
 		slider = [[CustomSliderView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 		[self addSubview:slider];
-		slider.maxValue = 10.0;
+		slider.maxValue = 20.0;
 		slider.minValue = 0.0;
 		[slider setSliderDelegate:self];
 		

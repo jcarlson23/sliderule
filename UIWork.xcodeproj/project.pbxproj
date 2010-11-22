@@ -24,6 +24,7 @@
 		BE6438C81288FF4F003412F6 /* CustomSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438C71288FF4F003412F6 /* CustomSliderView.m */; };
 		BE6438D71288FFA0003412F6 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438D61288FFA0003412F6 /* GradientView.m */; };
 		BE6439141289056F003412F6 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6439131289056F003412F6 /* LineView.m */; };
+		BE77F7F0129A187A00084F77 /* SlideLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE77F7EF129A187A00084F77 /* SlideLabel.m */; };
 		BE7D7F021291DB9C004CEC9F /* SurveryQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */; };
 		BE7D7F031291DB9C004CEC9F /* SurveryQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */; };
 		BE8213AE1290C78300F5F7E3 /* CoverFlowQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8213AD1290C78300F5F7E3 /* CoverFlowQuestionView.m */; };
@@ -60,6 +61,8 @@
 		BE6438D61288FFA0003412F6 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		BE6439121289056F003412F6 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
 		BE6439131289056F003412F6 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		BE77F7EE129A187A00084F77 /* SlideLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideLabel.h; sourceTree = "<group>"; };
+		BE77F7EF129A187A00084F77 /* SlideLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideLabel.m; sourceTree = "<group>"; };
 		BE7D7EFF1291DB9C004CEC9F /* SurveryQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveryQuestionViewController.h; sourceTree = "<group>"; };
 		BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveryQuestionViewController.m; sourceTree = "<group>"; };
 		BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveryQuestionViewController.xib; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				1D3623250D0F684500981E51 /* UIWorkAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* UIWorkViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* UIWorkViewController.m */,
+				BE77F7EE129A187A00084F77 /* SlideLabel.h */,
+				BE77F7EF129A187A00084F77 /* SlideLabel.m */,
 				BE8213AA1290C50E00F5F7E3 /* CoverFlowQuestion */,
 				BE8213A81290C4F000F5F7E3 /* SlideRuleControl */,
 				BE7D7EFF1291DB9C004CEC9F /* SurveryQuestionViewController.h */,
@@ -257,6 +262,7 @@
 				BE60582F12901D31008922A8 /* IndicatorCoverView.m in Sources */,
 				BE8213AE1290C78300F5F7E3 /* CoverFlowQuestionView.m in Sources */,
 				BE7D7F021291DB9C004CEC9F /* SurveryQuestionViewController.m in Sources */,
+				BE77F7F0129A187A00084F77 /* SlideLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

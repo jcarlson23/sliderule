@@ -11,6 +11,7 @@
 #import "CoverFlowQuestionView.h"
 #import "CustomSliderTheme.h"
 #import "SlideRuleParams.h"
+#import "SlideLabel.h"
 
 @implementation UIWorkViewController
 

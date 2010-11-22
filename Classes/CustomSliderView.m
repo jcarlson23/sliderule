@@ -143,6 +143,10 @@
 - (void) scrollViewDidScroll:(UIScrollView *) scrollView
 {
 	NSLog(@"Scrolling position is %f",self.contentOffset.x);
+	CGFloat x = self.contentOffset.x;
+	CGFloat w = self.contentSize.width - self.frame.size.width;
+	CGFloat temp = ( x / w ) * ( _maxValue - _minValue ) + _minValue;
+	NSLog(@"Immediate value calculated as %f",temp);
 	
 	if ( SliderDelegate)
 	{

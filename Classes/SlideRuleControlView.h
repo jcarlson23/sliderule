@@ -25,9 +25,11 @@
 	GradientCoverView * cover;
 	IndicatorCoverView * indicator;
 	id<SlideRuleDelegate> slideDelegate;
+	CGFloat value;
 	
 }
 
+@property(readonly) CGFloat value;
 @property(nonatomic,retain) IBOutlet id<SlideRuleDelegate> slideDelegate;
 
 - (id)initWithFrame:(CGRect)frame params:(SliderParam*)params;
