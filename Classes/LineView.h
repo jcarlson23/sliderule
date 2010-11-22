@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideRuleParams.h"
 
 
 @interface LineView : UIView 
@@ -27,5 +28,7 @@
 @property(readwrite) float maxTickValue;
 @property(nonatomic,retain) UIColor * textColor;
 @property(nonatomic,retain) UIColor * lineColor;
+
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)parms;
 
 @end

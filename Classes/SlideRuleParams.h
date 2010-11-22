@@ -18,6 +18,7 @@ typedef struct SliderParam {
 	float scale;
 	unsigned int numberMinorTicks;
 	unsigned int numberIntervals;
+	unsigned int s;
 } SliderParam;
 
 #endif

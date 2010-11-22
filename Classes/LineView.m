@@ -7,7 +7,7 @@
 //
 
 #import "LineView.h"
-
+#import "SlideRuleParams.h"
 
 @implementation LineView
 
@@ -19,6 +19,24 @@
 @synthesize textColor=_textColor;
 @synthesize lineColor=_lineColor;
 
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)parms
+{
+	if ((self = [super initWithFrame:frame])) {
+        // Initialization code
+		
+		[self setBackgroundColor:[UIColor clearColor]];
+		
+		_ticksPerMinorInterval = parms->numberMinorTicks;
+		_ticksPerMajorInterval = parms->numberIntervals;
+		_minTickValue = parms->minValue;
+		_maxTickValue = parms->maxValue;
+		
+		_textColor = [UIColor whiteColor];
+		_lineColor = [UIColor lightGrayColor];
+		
+    }
+    return self;
+}
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {

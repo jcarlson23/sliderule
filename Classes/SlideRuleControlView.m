@@ -121,4 +121,23 @@
 	return xvalue;
 }
 
++ (SliderParam*) createParametersMin:(float)min max:(float)max scale:(float)scale
+					numberMajorTicks:(unsigned int)numberMajorTicks
+					numberMinorTicks:(unsigned int)numberMinorTicks 
+							  factor:(unsigned int)factor
+{
+	SliderParam * params = (SliderParam*) malloc( sizeof(SliderParam) * 1 );
+	params->minValue = min;
+	params->maxValue = max;
+	params->scale    = scale;
+	params->numberMinorTicks = numberMinorTicks;
+	params->numberIntervals  = numberMajorTicks;
+	params->s = factor;
+#define LOW_FACTOR_LIMIT 2.0f
+	if ( params->s < LOW_FACTOR_LIMIT ) {
+		params->s = LOW_FACTOR_LIMIT;
+	}
+	
+	return params;
+}
 @end

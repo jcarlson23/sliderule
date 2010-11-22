@@ -17,18 +17,25 @@
 
 - (void) setup:(SliderParam*)parms;
 {
-	scale = 3;
+	// set the scale of the slider..
+	if ( parms ) {
+		scale = parms->s;
+	} else {
+		scale = 3;
+	}
 	
 	CGSize contentSize = CGSizeMake(scale*self.bounds.size.width, self.bounds.size.height);
 	CGFloat width = self.bounds.size.width;
 	[self setContentSize:contentSize];
+	
+	// set the background
 	backgroundGradient = [[GradientView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
 	[backgroundGradient setHighColor:[gradientColors objectAtIndex:0]];
 	[backgroundGradient	setLowColor:[gradientColors objectAtIndex:1]];
 	[self addSubview:backgroundGradient];
 	
 	if ( parms ) {
-		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
+		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height) params:parms];
 	} else {
 		_line = [[LineView alloc] initWithFrame:CGRectMake(0, 0, scale*width, self.contentSize.height)];
 	}

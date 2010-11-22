@@ -15,7 +15,6 @@
 @class IndicatorCoverView;
 
 
-
 @protocol SlideRuleDelegate
 - (void) slideValueChanged:(id)sender;
 @end
@@ -25,7 +24,6 @@
 	CustomSliderView * slider;
 	GradientCoverView * cover;
 	IndicatorCoverView * indicator;
-	
 	id<SlideRuleDelegate> slideDelegate;
 	
 }
@@ -36,5 +34,11 @@
 - (void) applyTheme:(CustomSliderTheme*)theme;
 - (IBAction) valueDidChange:(UIEvent*)event;
 - (CGFloat) currentValue;
+
+// class methods
++ (SliderParam*) createParametersMin:(float)min max:(float)max scale:(float)scale
+					numberMajorTicks:(unsigned int)numberMajorTicks
+					numberMinorTicks:(unsigned int)numberMinorTicks 
+							  factor:(unsigned int)factor;
 
 @end

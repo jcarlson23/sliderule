@@ -10,6 +10,7 @@
 #import "SlideRuleControlView.h"
 #import "CoverFlowQuestionView.h"
 #import "CustomSliderTheme.h"
+#import "SlideRuleParams.h"
 
 @implementation UIWorkViewController
 
@@ -30,6 +31,12 @@
 	UIView * view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	[view setBackgroundColor:[UIColor whiteColor]];
 	
+	// create parameters for the sliders...
+	SliderParam * parms = [SlideRuleControlView createParametersMin:0.0f max:10.0f scale:1.0f
+												   numberMajorTicks:10
+												   numberMinorTicks:10
+															 factor:3];
+	
 	
 	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 150, 300, 50)];
 	CustomSliderTheme * theme = [CustomSliderTheme buildTheme:kCSThemeWhite];
@@ -48,6 +55,9 @@
 	UILabel * secondLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 350, 300, 30)];
 	[view addSubview:secondLabel];
 	[secondLabel release];
+	
+	// C -style memeory clean up of the parameters
+	free( parms );
 	
 	self.view = view;
 	[view release];

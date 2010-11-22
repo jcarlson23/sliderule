@@ -19,6 +19,7 @@
 @property(readwrite) NSUInteger numberOfMajorTicks;
 @property(nonatomic,retain) UIColor * textColor;
 
+
 - (id)initWithFrame:(CGRect)frame params:(SliderParam*)parms;
 
 @end
