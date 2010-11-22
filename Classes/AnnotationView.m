@@ -47,6 +47,10 @@
 		self.textColor = [UIColor whiteColor];
 	}
 	
+	CGRect superFrame = [[self superview] frame];
+	NSLog(@"The super frame's width is %f",superFrame.size.width);
+	CGFloat frameWidth = superFrame.size.width;
+	
 	/* Now add the annotations */
 	int i=0, len; 
 	CGFloat x;
@@ -66,6 +70,7 @@
 	CGContextSelectFont(context,"Helvetica-Bold",10,kCGEncodingMacRoman);
 	CGContextTranslateCTM(context, 0, height);
 	CGContextScaleCTM(context, 1.0, -1.0);
+	CGFloat dx    = (width - frameWidth)/2/numberOfMajorTicks;
 	
 	for (i=0; i<=numberOfMajorTicks; i++)
 	{
@@ -74,7 +79,7 @@
 		CGSize sizeOfString = [temp sizeWithFont:[UIFont fontWithName:@"Helvetica" size:10] constrainedToSize:CGSizeMake(100, 100)];
 		len = strlen(buffer);
 		CGFloat offset = sizeOfString.width/2;
-		x = i*(width/2/numberOfMajorTicks)+width/4;
+		x = i*diff*dx+frameWidth/2;
 #define OFFSET 15.0f
 		CGContextShowTextAtPoint(context, x-offset, height/2 - OFFSET, buffer, strlen(buffer));
 		marker += diff;

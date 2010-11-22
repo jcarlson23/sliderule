@@ -68,6 +68,10 @@
 	CGContextAddRect(context, line);
 	CGContextFillPath(context);
 	
+	CGRect superFrame = [[self superview] frame];
+	NSLog(@"The super frame's width is %f",superFrame.size.width);
+	CGFloat frameWidth = superFrame.size.width;
+	
 	// draw the ticks...
 	CGFloat width = self.frame.size.width;
 	CGFloat x     = 0.0;
@@ -75,16 +79,17 @@
 	CGFloat y     = mid/4;
 	CGContextSetLineWidth(context, 2.0);
 	CGContextSetStrokeColorWithColor(context, _lineColor.CGColor);
+	CGFloat dx    = (width - frameWidth)/2/_ticksPerMinorInterval;
 	
-	for ( x=width/4; x<=(3*width/4); x+=(width/2/(_ticksPerMinorInterval)) )
+	for ( x=frameWidth/2; x<=(width-frameWidth/2); x+=dx )
 	{
 		CGContextMoveToPoint(context, x, mid-y);
 		CGContextAddLineToPoint(context, x, mid-y);
 		CGContextAddLineToPoint(context, x, mid+y);
 		CGContextStrokePath(context);
-		CGFloat smallWidth = (width/2/(_ticksPerMinorInterval));
+		CGFloat smallWidth = dx;
 		
-		if ( x >= (3*width/4) ) break;
+		if ( x >= (width-frameWidth/2) ) break;
 		for (float dx=smallWidth/10.0f; dx<smallWidth; dx+=(smallWidth/10.0f))
 		{
 			CGContextMoveToPoint(context, x+dx, mid-y/2);
