@@ -79,7 +79,10 @@
 	CGFloat y     = mid/4;
 	CGContextSetLineWidth(context, 2.0);
 	CGContextSetStrokeColorWithColor(context, _lineColor.CGColor);
-	CGFloat dx    = (width - frameWidth)/2/_ticksPerMinorInterval;
+	CGFloat windowWidth = (width - frameWidth)/1;
+	CGFloat dw    = ((windowWidth / _ticksPerMajorInterval)) / ((_maxTickValue - _minTickValue) / _ticksPerMajorInterval);
+	CGFloat diff  = (_maxTickValue - _minTickValue)/_ticksPerMajorInterval;
+	CGFloat dx    = dw;// * (width - frameWidth)/2/(_ticksPerMajorInterval);
 	
 	for ( x=frameWidth/2; x<=(width-frameWidth/2); x+=dx )
 	{

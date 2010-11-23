@@ -21,7 +21,7 @@
 	if ( (self = [super initWithFrame:frame]) )
 	{
 		// initialization code
-		slider = [[CustomSliderView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+		slider = [[CustomSliderView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height) params:params];
 		[self addSubview:slider];
 		slider.maxValue = params->maxValue;
 		slider.minValue = params->minValue;

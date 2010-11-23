@@ -50,6 +50,7 @@
 @property(nonatomic,retain) UIColor * borderColor;
 @property(nonatomic,retain) NSArray * gradientColors;
 
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)parms;
 - (void) setBackgroundColorChart:(UIColor*)color;
 
 @end

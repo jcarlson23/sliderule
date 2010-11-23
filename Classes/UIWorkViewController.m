@@ -39,7 +39,7 @@
 															 factor:3];
 	
 	
-	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 150, 300, 50)];
+	SlideRuleControlView * slideRuler = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 150, 300, 50) params:parms];
 	CustomSliderTheme * theme = [CustomSliderTheme buildTheme:kCSThemeWhite];
 	[view addSubview:slideRuler];
 	[slideRuler applyTheme:theme];
@@ -51,7 +51,10 @@
 	[slideRuler setSlideDelegate:label];
 	[label release];
 	
-	SlideRuleControlView * secondSlider = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 300, 300, 50)];
+	// update our parameters to change the second slide rule
+	parms->maxValue = 20.0f;
+	
+	SlideRuleControlView * secondSlider = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 300, 300, 50) params:parms];
 	[view addSubview:secondSlider];
 	[secondSlider release];
 	

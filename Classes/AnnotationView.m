@@ -48,7 +48,6 @@
 	}
 	
 	CGRect superFrame = [[self superview] frame];
-	NSLog(@"The super frame's width is %f",superFrame.size.width);
 	CGFloat frameWidth = superFrame.size.width;
 	
 	/* Now add the annotations */
@@ -58,8 +57,9 @@
 	char buffer[20];
 	CGFloat width = self.frame.size.width;
 	CGFloat height = self.frame.size.height;
-	float diff = ( maxValue - minValue ) / numberOfMajorTicks;
+	// float diff = ( maxValue - minValue ) / numberOfMajorTicks;
 	float marker = minValue;
+	
 	
 	float * components;
 	components = CGColorGetComponents(textColor.CGColor);
@@ -70,7 +70,11 @@
 	CGContextSelectFont(context,"Helvetica-Bold",10,kCGEncodingMacRoman);
 	CGContextTranslateCTM(context, 0, height);
 	CGContextScaleCTM(context, 1.0, -1.0);
-	CGFloat dx    = (width - frameWidth)/2/numberOfMajorTicks;
+	// CGFloat dx    = (width - frameWidth)/2/numberOfMajorTicks;
+	CGFloat windowWidth = (width - frameWidth)/1;
+	CGFloat dw    = ((windowWidth / numberOfMajorTicks)) / ((maxValue - minValue) / numberOfMajorTicks);
+	CGFloat diff  = (maxValue - minValue)/numberOfMajorTicks;
+	CGFloat dx    = dw;// * (width - frameWidth)/2/(_ticksPerMajorInterval);
 	
 	for (i=0; i<=numberOfMajorTicks; i++)
 	{

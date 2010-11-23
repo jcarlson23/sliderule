@@ -78,6 +78,21 @@
 @synthesize SliderDelegate;
 @synthesize scale;
 
+- (id)initWithFrame:(CGRect)frame params:(SliderParam*)parms {
+    if ((self = [super initWithFrame:frame])) {
+        // Initialization code
+		
+		if ( gradientColors == nil ) {
+			gradientColors = [[NSArray alloc] initWithObjects:[UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:0.9],
+							  [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1],nil];
+		}
+		
+		[self setup:parms];
+		
+    }
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
