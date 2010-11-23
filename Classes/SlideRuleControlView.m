@@ -118,12 +118,12 @@
 - (CGFloat) currentValue
 {
 
-	CGSize  scrollSize = [slider contentSize];
-	CGFloat range      = slider.maxValue - slider.minValue;
-	CGFloat scrollX    = [slider contentOffset].x;
-	CGFloat scaledX    = scrollX / (scrollSize.width/2.0);
-	CGFloat xvalue     = scaledX * range + slider.minValue;
-	return xvalue;
+	CGFloat width = slider.frame.size.width;
+	CGFloat x = slider.contentOffset.x;
+	CGFloat w = slider.contentSize.width - width;
+	CGFloat temp = ( x / w ) * ( slider.maxValue - slider.minValue ) + slider.minValue;
+	value = temp;
+	return value;
 }
 
 + (SliderParam*) createParametersMin:(float)min max:(float)max scale:(float)scale

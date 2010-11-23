@@ -33,7 +33,9 @@
 
 - (void) slideValueChanged:(id)sender
 {
-	NSLog(@"%@ sent value changed event.");
+	float value = [(SlideRuleControlView*)sender currentValue];
+	NSString * valString = [NSString stringWithFormat:@"%f",value];
+	[self setText:valString];
 }
 
 @end

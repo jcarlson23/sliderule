@@ -142,12 +142,12 @@
 #pragma mark ScrollView Delegate
 - (void) scrollViewDidScroll:(UIScrollView *) scrollView
 {
-	NSLog(@"Scrolling position is %f",self.contentOffset.x);
+	// NSLog(@"Scrolling position is %f",self.contentOffset.x);
 	CGFloat width = self.frame.size.width;
 	CGFloat x = self.contentOffset.x;
 	CGFloat w = self.contentSize.width - width;
 	CGFloat temp = ( x / w ) * ( _maxValue - _minValue ) + _minValue;
-	NSLog(@"Immediate value calculated as %f",temp);
+	// NSLog(@"Immediate value calculated as %f",temp);
 	
 	if ( SliderDelegate)
 	{

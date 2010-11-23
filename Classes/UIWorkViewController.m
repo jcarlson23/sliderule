@@ -47,6 +47,7 @@
 
 	SlideLabel * label = [[SlideLabel alloc] initWithFrame:CGRectMake(10, 200, 300, 30)];
 	[view addSubview:label];
+	[label setTextColor:[UIColor lightGrayColor]];
 	[slideRuler setSlideDelegate:label];
 	[label release];
 	
@@ -56,6 +57,7 @@
 	
 	SlideLabel * secondLabel = [[SlideLabel alloc] initWithFrame:CGRectMake(10, 350, 300, 30)];
 	[view addSubview:secondLabel];
+	[secondLabel setTextColor:[UIColor darkGrayColor]];
 	[secondSlider setSlideDelegate:secondLabel];
 	
 	
