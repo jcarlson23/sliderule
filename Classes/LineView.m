@@ -84,13 +84,15 @@
 	CGFloat diff  = (_maxTickValue - _minTickValue)/_ticksPerMajorInterval;
 	CGFloat dx    = dw;// * (width - frameWidth)/2/(_ticksPerMajorInterval);
 	
-	for ( x=frameWidth/2; x<=(width-frameWidth/2); x+=dx )
+	for (int i=0; i<=_ticksPerMajorInterval; i++ )
 	{
+		x = i*diff*dx+frameWidth/2;
+		
 		CGContextMoveToPoint(context, x, mid-y);
 		CGContextAddLineToPoint(context, x, mid-y);
 		CGContextAddLineToPoint(context, x, mid+y);
 		CGContextStrokePath(context);
-		CGFloat smallWidth = dx;
+		CGFloat smallWidth = diff*dx;
 		
 		if ( x >= (width-frameWidth/2) ) break;
 		for (float dx=smallWidth/10.0f; dx<smallWidth; dx+=(smallWidth/10.0f))

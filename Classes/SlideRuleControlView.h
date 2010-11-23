@@ -36,6 +36,7 @@
 - (void) applyTheme:(CustomSliderTheme*)theme;
 - (IBAction) valueDidChange:(UIEvent*)event;
 - (CGFloat) currentValue;
+- (void) setCurrentValue:(float)_val;
 
 // class methods
 + (SliderParam*) createParametersMin:(float)min max:(float)max scale:(float)scale

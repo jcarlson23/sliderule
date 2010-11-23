@@ -52,7 +52,8 @@
 	[label release];
 	
 	// update our parameters to change the second slide rule
-	parms->maxValue = 20.0f;
+	parms->minValue = 100.0f;
+	parms->maxValue = 400.0f;
 	
 	SlideRuleControlView * secondSlider = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 300, 300, 50) params:parms];
 	[view addSubview:secondSlider];

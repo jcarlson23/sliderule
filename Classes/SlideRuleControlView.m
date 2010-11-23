@@ -126,6 +126,18 @@
 	return value;
 }
 
+- (void) setCurrentValue:(float)_val
+{
+	CGFloat width = slider.frame.size.width;
+	CGFloat w     = slider.contentSize.width - width;
+	CGFloat range = (slider.maxValue - slider.minValue);
+	CGFloat temp  = ( _val - slider.minValue) / range;
+	CGFloat x     = temp * w;
+	CGPoint offset = CGPointMake(x, 0);
+	[slider setContentOffset:offset];
+	// done
+}
+
 + (SliderParam*) createParametersMin:(float)min max:(float)max scale:(float)scale
 					numberMajorTicks:(unsigned int)numberMajorTicks
 					numberMinorTicks:(unsigned int)numberMinorTicks 
