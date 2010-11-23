@@ -81,6 +81,11 @@
 
 - (IBAction) valueDidChange:(UIEvent*)event
 {
+	if ( slideDelegate )
+	{
+		[slideDelegate slideValueChanged:self];
+	}
+	
 	CGFloat value = [self currentValue];
 	NSLog(@"The current value is %f",value);
 }

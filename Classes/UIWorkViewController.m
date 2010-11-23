@@ -43,24 +43,30 @@
 	CustomSliderTheme * theme = [CustomSliderTheme buildTheme:kCSThemeWhite];
 	[view addSubview:slideRuler];
 	[slideRuler applyTheme:theme];
-	[slideRuler release];	
+		
 
-	UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(10, 200, 300, 30)];
+	SlideLabel * label = [[SlideLabel alloc] initWithFrame:CGRectMake(10, 200, 300, 30)];
 	[view addSubview:label];
+	[slideRuler setSlideDelegate:label];
 	[label release];
 	
 	SlideRuleControlView * secondSlider = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 300, 300, 50)];
 	[view addSubview:secondSlider];
 	[secondSlider release];
 	
-	UILabel * secondLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 350, 300, 30)];
+	SlideLabel * secondLabel = [[SlideLabel alloc] initWithFrame:CGRectMake(10, 350, 300, 30)];
 	[view addSubview:secondLabel];
-	[secondLabel release];
+	[secondSlider setSlideDelegate:secondLabel];
+	
 	
 	// C -style memeory clean up of the parameters
 	free( parms );
 	
 	self.view = view;
+	
+	[slideRuler release];
+	[secondLabel release];
+	
 	[view release];
 }
 
