@@ -57,6 +57,7 @@
 	
 	SlideRuleControlView * secondSlider = [[SlideRuleControlView alloc] initWithFrame:CGRectMake(10, 300, 300, 50) params:parms];
 	[view addSubview:secondSlider];
+	[secondSlider setCurrentValue:150.0];
 	[secondSlider release];
 	
 	SlideLabel * secondLabel = [[SlideLabel alloc] initWithFrame:CGRectMake(10, 350, 300, 30)];

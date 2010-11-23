@@ -302,7 +302,7 @@
 							<real>234</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>62 126 1304 620 0 0 1366 746 </string>
+						<string>170 126 1304 620 0 0 1366 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -332,7 +332,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE83126F129C3B5F0053EE6E</string>
+										<string>BE831285129C49050053EE6E</string>
 										<key>history</key>
 										<array>
 											<string>BE64391E128906B5003412F6</string>
@@ -347,7 +347,6 @@
 											<string>BE02EF59129A01260066C90E</string>
 											<string>BE02EFA8129A07D60066C90E</string>
 											<string>BE77F7FC129A1B0800084F77</string>
-											<string>BEEEFF3D129B12AF00C5DEED</string>
 											<string>BEEEFF40129B12AF00C5DEED</string>
 											<string>BEAEEA6E129B6F130064E0FA</string>
 											<string>BE8311AF129C21F00053EE6E</string>
@@ -356,11 +355,12 @@
 											<string>BE8311B7129C21F00053EE6E</string>
 											<string>BE8311DE129C24BB0053EE6E</string>
 											<string>BE8311DF129C24BB0053EE6E</string>
-											<string>BE831256129C37E00053EE6E</string>
 											<string>BE83125E129C38610053EE6E</string>
 											<string>BE83126C129C3B5F0053EE6E</string>
 											<string>BE83126D129C3B5F0053EE6E</string>
-											<string>BE83126E129C3B5F0053EE6E</string>
+											<string>BE83127C129C40320053EE6E</string>
+											<string>BE83127D129C40320053EE6E</string>
+											<string>BE831276129C40160053EE6E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -374,7 +374,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1048, 520}}</string>
 								<key>RubberWindowFrame</key>
-								<string>62 126 1304 620 0 0 1366 746 </string>
+								<string>170 126 1304 620 0 0 1366 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -394,7 +394,7 @@
 								<key>Frame</key>
 								<string>{{0, 525}, {1048, 54}}</string>
 								<key>RubberWindowFrame</key>
-								<string>62 126 1304 620 0 0 1366 746 </string>
+								<string>170 126 1304 620 0 0 1366 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -566,7 +566,7 @@
 		<string>/Users/jcarlson/Software/iPhone/uiwork/UIWork.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>62 126 1304 620 0 0 1366 746 </string>
+	<string>170 126 1304 620 0 0 1366 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
