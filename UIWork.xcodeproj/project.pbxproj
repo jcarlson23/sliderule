@@ -25,6 +25,7 @@
 		BE6438D71288FFA0003412F6 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6438D61288FFA0003412F6 /* GradientView.m */; };
 		BE6439141289056F003412F6 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6439131289056F003412F6 /* LineView.m */; };
 		BE77F7F0129A187A00084F77 /* SlideLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE77F7EF129A187A00084F77 /* SlideLabel.m */; };
+		BE78D65D12A0464500C573BB /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = BE78D65C12A0464500C573BB /* README.markdown */; };
 		BE7D7F021291DB9C004CEC9F /* SurveryQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */; };
 		BE7D7F031291DB9C004CEC9F /* SurveryQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */; };
 		BE8213AE1290C78300F5F7E3 /* CoverFlowQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8213AD1290C78300F5F7E3 /* CoverFlowQuestionView.m */; };
@@ -63,6 +64,7 @@
 		BE6439131289056F003412F6 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 		BE77F7EE129A187A00084F77 /* SlideLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideLabel.h; sourceTree = "<group>"; };
 		BE77F7EF129A187A00084F77 /* SlideLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideLabel.m; sourceTree = "<group>"; };
+		BE78D65C12A0464500C573BB /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		BE7D7EFF1291DB9C004CEC9F /* SurveryQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveryQuestionViewController.h; sourceTree = "<group>"; };
 		BE7D7F001291DB9C004CEC9F /* SurveryQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveryQuestionViewController.m; sourceTree = "<group>"; };
 		BE7D7F011291DB9C004CEC9F /* SurveryQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveryQuestionViewController.xib; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BE78D65C12A0464500C573BB /* README.markdown */,
 				2899E5210DE3E06400AC0155 /* UIWorkViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* UIWork-Info.plist */,
@@ -214,7 +217,6 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UIWork" */;
 			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -239,6 +241,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* UIWorkViewController.xib in Resources */,
 				BE7D7F031291DB9C004CEC9F /* SurveryQuestionViewController.xib in Resources */,
+				BE78D65D12A0464500C573BB /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +283,7 @@
 				GCC_PREFIX_HEADER = UIWork_Prefix.pch;
 				INFOPLIST_FILE = "UIWork-Info.plist";
 				PRODUCT_NAME = UIWork;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
