@@ -50,6 +50,6 @@ and of course apply a theme to the sliderule.
 
 Here is a screenshot of the sample project, running it "out of the box"
 
-![alt Screenshot](http://www.slapthatapp.com/resources/Screenshot.png "Screenshot")
+![alt Screenshot](http://www.schazm.com/resources/Screenshot.png "Screenshot")
 
 
